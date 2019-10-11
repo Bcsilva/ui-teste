@@ -1,0 +1,205 @@
+- var jan = ['02','11','12','14','15','20','22','22','25'];
+- var fev = ['01','15','15','17','18','21','22','24','25'];
+- var mar = ['04','16','17','17','19','20','21','22','23'];
+- var abr = ['08','17','18','19','19','26','27','28','28'];
+- var mai = ['09','12','12','14','15','20','22','22','25'];
+- var jun = ['03','09','09','14','15','22','22','26','29'];
+- var jul = ['02','03','07','14','15','20','22','22','25'];
+- var ago = ['01','13','12','14','15','20','22','22','25'];
+- var set = ['05','12','12','14','15','20','22','22','25'];
+- var out = ['06','11','11','14','15','20','22','22','25'];
+- var nov = ['07','09','13','14','15','20','22','22','25'];
+- var dez = ['09','11','12','14','15','20','22','22','25'];
+
+#calendar-selector.text-center
+    #carouselMonthSel.carousel.slide.carousel-fade(data-ride='carousel' data-autoplay="false")
+        .carousel-inner
+            .carousel-item 
+                a#months-jan-tab.nav-link(data-toggle='pill' href='#months-jan' role='tab' aria-controls='months-jan' aria-selected='false') Janeiro
+            .carousel-item 
+                a#months-fev-tab.nav-link(data-toggle='pill' href='#months-fev' role='tab' aria-controls='months-fev' aria-selected='false') Fevereiro
+            .carousel-item 
+                a#months-mar-tab.nav-link(data-toggle='pill' href='#months-mar' role='tab' aria-controls='months-mar' aria-selected='false') Março
+            .carousel-item 
+                a#months-abr-tab.nav-link(data-toggle='pill' href='#months-abr' role='tab' aria-controls='months-abr' aria-selected='false') Abril
+            .carousel-item.active 
+                a#months-mai-tab.nav-link(data-toggle='pill' href='#months-mai' role='tab' aria-controls='months-mai' aria-selected='false') Maio
+            .carousel-item 
+                a#months-jul-tab.nav-link(data-toggle='pill' href='#months-jul' role='tab' aria-controls='months-jul' aria-selected='false') Junho
+            .carousel-item 
+                a#months-jul-tab.nav-link(data-toggle='pill' href='#months-jul' role='tab' aria-controls='months-jul' aria-selected='false') Julho
+            .carousel-item 
+                a#months-ago-tab.nav-link(data-toggle='pill' href='#months-ago' role='tab' aria-controls='months-ago' aria-selected='false') Agosto
+            .carousel-item 
+                a#months-set-tab.nav-link(data-toggle='pill' href='#months-set' role='tab' aria-controls='months-set' aria-selected='false') Setembro
+            .carousel-item 
+                a#months-out-tab.nav-link(data-toggle='pill' href='#months-out' role='tab' aria-controls='months-out' aria-selected='false') Outubro
+            .carousel-item 
+                a#months-nov-tab.nav-link(data-toggle='pill' href='#months-nov' role='tab' aria-controls='months-nov' aria-selected='false') Novembro
+            .carousel-item 
+                a#months-dez-tab.nav-link(data-toggle='pill' href='#months-dez' role='tab' aria-controls='months-dez' aria-selected='false') Dezembro
+        a.carousel-control-prev(href='#carouselMonthSel' role='button' data-slide='prev')
+            span.carousel-control-prev-icon(aria-hidden='true')
+            span.sr-only Previous
+        a.carousel-control-next(href='#carouselMonthSel' role='button' data-slide='next')
+            span.carousel-control-next-icon(aria-hidden='true')
+            span.sr-only Next
+#calendar
+    .row
+        #months-tabContent.tab-content
+            #months-jan.tab-pane.fade(role='tabpanel' aria-labelledby='months-jan-tab')
+                .card-columns
+                    each val in jan
+                        .card
+                            .card-body
+                                .row.no-gutters
+                                    .col
+                                        h3=val
+                                    .col
+                                        .card-title
+                                            h4 José Armando da Silva
+                                        .card-text
+                                            p Engenheiro Eletricista/Telecomunicações
+            #months-fev.tab-pane.fade(role='tabpanel' aria-labelledby='months-fev-tab')
+                .card-columns
+                    each val in fev 
+                        .card
+                            .card-body
+                                .row.no-gutters
+                                    .col
+                                        h3=val
+                                    .col
+                                        .card-title
+                                            h4 José Armando da Silva
+                                        .card-text
+                                            p Engenheiro Eletricista/Telecomunicações
+            #months-mar.tab-pane.fade(role='tabpanel' aria-labelledby='months-mar-tab')
+                .card-columns
+                    each val in mar 
+                        .card
+                            .card-body
+                                .row.no-gutters
+                                    .col
+                                        h3=val
+                                    .col
+                                        .card-title
+                                            h4 José Armando da Silva
+                                        .card-text
+                                            p Engenheiro Eletricista/Telecomunicações
+            #months-abr.tab-pane.fade(role='tabpanel' aria-labelledby='months-abr-tab')
+                .card-columns
+                    each val in abr 
+                        .card
+                            .card-body
+                                .row.no-gutters
+                                    .col
+                                        h3=val
+                                    .col
+                                        .card-title
+                                            h4 José Armando da Silva
+                                        .card-text
+                                            p Engenheiro Eletricista/Telecomunicações
+            #months-mai.tab-pane.fade.show.active(role='tabpanel' aria-labelledby='months-mai-tab')
+                .card-columns
+                    each val in mai 
+                        .card
+                            .card-body
+                                .row.no-gutters
+                                    .col
+                                        h3=val
+                                    .col
+                                        .card-title
+                                            h4 José Armando da Silva
+                                        .card-text
+                                            p Engenheiro Eletricista/Telecomunicações
+            #months-jun.tab-pane.fade(role='tabpanel' aria-labelledby='months-jun-tab')
+                .card-columns
+                    each val in jun 
+                        .card
+                            .card-body
+                                .row.no-gutters
+                                    .col
+                                        h3=val
+                                    .col
+                                        .card-title
+                                            h4 José Armando da Silva
+                                        .card-text
+                                            p Engenheiro Eletricista/Telecomunicações
+            #months-jul.tab-pane.fade(role='tabpanel' aria-labelledby='months-jul-tab')
+                .card-columns
+                    each val in jul 
+                        .card
+                            .card-body
+                                .row.no-gutters
+                                    .col
+                                        h3=val
+                                    .col
+                                        .card-title
+                                            h4 José Armando da Silva
+                                        .card-text
+                                            p Engenheiro Eletricista/Telecomunicações
+            #months-ago.tab-pane.fade(role='tabpanel' aria-labelledby='months-ago-tab')
+                .card-columns
+                    each val in ago
+                        .card
+                            .card-body
+                                .row.no-gutters
+                                    .col
+                                        h3=val
+                                    .col
+                                        .card-title
+                                            h4 José Armando da Silva
+                                        .card-text
+                                            p Engenheiro Eletricista/Telecomunicações
+            #months-set.tab-pane.fadee(role='tabpanel' aria-labelledby='months-set-tab')
+                .card-columns
+                    each val in set 
+                        .card
+                            .card-body
+                                .row.no-gutters
+                                    .col
+                                        h3=val
+                                    .col
+                                        .card-title
+                                            h4 José Armando da Silva
+                                        .card-text
+                                            p Engenheiro Eletricista/Telecomunicações
+            #months-out.tab-pane.fade(role='tabpanel' aria-labelledby='months-out-tab')
+                .card-columns
+                    each val in out 
+                        .card
+                            .card-body
+                                .row.no-gutters
+                                    .col
+                                        h3=val
+                                    .col
+                                        .card-title
+                                            h4 José Armando da Silva
+                                        .card-text
+                                            p Engenheiro Eletricista/Telecomunicações
+            #months-nov.tab-pane.fade(role='tabpanel' aria-labelledby='months-nov-tab')
+                .card-columns
+                    each val in nov 
+                        .card
+                            .card-body
+                                .row.no-gutters
+                                    .col
+                                        h3=val
+                                    .col
+                                        .card-title
+                                            h4 José Armando da Silva
+                                        .card-text
+                                            p Engenheiro Eletricista/Telecomunicações
+            #months-dez.tab-pane.fade(role='tabpanel' aria-labelledby='months-dez-tab')
+                .card-columns
+                    each val in dez 
+                        .card
+                            .card-body
+                                .row.no-gutters
+                                    .col
+                                        h3=val
+                                    .col
+                                        .card-title
+                                            h4 José Armando da Silva
+                                        .card-text
+                                            p Engenheiro Eletricista/Telecomunicações

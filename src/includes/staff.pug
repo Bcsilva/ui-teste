@@ -1,0 +1,113 @@
+#staff
+  .row
+    ul#pills-tab.nav.nav-pills.mb-3(role='tablist')
+      li.nav-item
+        a#pills-presidente-tab.nav-link.active(data-toggle='pill' href='#pills-presidente' role='tab' aria-controls='pills-presidente' aria-selected='true') Presidente
+      li.nav-item
+        a#pills-vicepresidente-tab.nav-link(data-toggle='pill' href='#pills-vicepresidente' role='tab' aria-controls='pills-vicepresidente' aria-selected='false') Vice-Presidente
+      li.nav-item
+        a#pills-secretarios-tab.nav-link(data-toggle='pill' href='#pills-secretarios' role='tab' aria-controls='pills-secretarios' aria-selected='false') Secretários
+      li.nav-item
+        a#pills-vicesecretarios-tab.nav-link(data-toggle='pill' href='#pills-vicesecretarios' role='tab' aria-controls='pills-vicesecretarios' aria-selected='false') Vice-Secretários
+      li.nav-item
+        a#pills-conselheiros-tab.nav-link(data-toggle='pill' href='#pills-conselheiros' role='tab' aria-controls='pills-conselheiros' aria-selected='false') Conselheiros
+      li.nav-item
+        a#pills-expresidentes-tab.nav-link(data-toggle='pill' href='#pills-expresidentes' role='tab' aria-controls='pills-expresidentes' aria-selected='false') Ex-Presidentes          
+  .row
+    #pills-tabContent.tab-content
+      #pills-presidente.tab-pane.fade.show.active(role='tabpanel' aria-labelledby='pills-presidente-tab')
+        .card-columns
+          - for (var i = 0; i < 9; ++i) {
+          .card
+            .card-body
+              .row.no-gutters
+                .col
+                  img.avatar.rounded.float-left(src='img/a0f7c61c3684f58de951faf610b7ffc1.png' alt='titulo')
+                .col
+                  .card-title
+                    h5 PRESIDENTE
+                  .card-title
+                    h4 José Armando da Silva
+                  .card-text
+                    p Engenheiro Eletricista/Telecomunicações
+          - }
+      #pills-vicepresidente.tab-pane.fade(role='tabpanel' aria-labelledby='pills-vicepresidente-tab')
+        .card-columns
+          - for (var i = 0; i < 9; ++i) {
+          .card
+            .card-body
+              .row.no-gutters
+                .col
+                  img.avatar.rounded.float-left(src='img/a0f7c61c3684f58de951faf610b7ffc1.png' alt='titulo')
+                .col
+                  .card-title
+                    h5 VICE-PRESIDENTE
+                  .card-title
+                    h4 José Armando da Silva
+                  .card-text
+                    p Engenheiro Eletricista/Telecomunicações
+          - }
+      #pills-secretarios.tab-pane.fade(role='tabpanel' aria-labelledby='pills-secretarios-tab')
+        .card-columns
+          - for (var i = 0; i < 9; ++i) {
+          .card
+            .card-body
+              .row.no-gutters
+                .col
+                  img.avatar.rounded.float-left(src='img/a0f7c61c3684f58de951faf610b7ffc1.png' alt='titulo')
+                .col
+                  .card-title
+                    h5 SECRETÁRIO
+                  .card-title
+                    h4 José Armando da Silva
+                  .card-text
+                    p Engenheiro Eletricista/Telecomunicações
+          - }
+      #pills-vicesecretarios.tab-pane.fade(role='tabpanel' aria-labelledby='pills-vicesecretarios-tab')
+        .card-columns
+          - for (var i = 0; i < 9; ++i) {
+          .card
+            .card-body
+              .row.no-gutters
+                .col
+                  img.avatar.rounded.float-left(src='img/a0f7c61c3684f58de951faf610b7ffc1.png' alt='titulo')
+                .col
+                  .card-title
+                    h5 VICE-SECRETÁRIO
+                  .card-title
+                    h4 José Armando da Silva
+                  .card-text
+                    p Engenheiro Eletricista/Telecomunicações
+          - }
+      #pills-conselheiros.tab-pane.fade(role='tabpanel' aria-labelledby='pills-conselheiros-tab')
+        .card-columns
+          - for (var i = 0; i < 9; ++i) {
+          .card
+            .card-body
+              .row.no-gutters
+                .col
+                  img.avatar.rounded.float-left(src='img/a0f7c61c3684f58de951faf610b7ffc1.png' alt='titulo')
+                .col
+                  .card-title
+                    h5 VICE-CONSELHEIRO
+                  .card-title
+                    h4 José Armando da Silva
+                  .card-text
+                    p Engenheiro Eletricista/Telecomunicações
+          - }   
+      #pills-expresidentes.tab-pane.fade(role='tabpanel' aria-labelledby='pills-expresidentes-tab')
+        .card-columns
+          - for (var i = 0; i < 9; ++i) {
+          .card
+            .card-body
+              .row.no-gutters
+                .col
+                  img.avatar.rounded.float-left(src='img/a0f7c61c3684f58de951faf610b7ffc1.png' alt='titulo')
+                .col
+                  .card-title
+                    h5 EX-PRESIDENTE
+                  .card-title
+                    h4 José Armando da Silva
+                  .card-text
+                    p Engenheiro Eletricista/Telecomunicações
+          - }       

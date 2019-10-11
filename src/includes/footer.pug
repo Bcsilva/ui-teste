@@ -1,0 +1,24 @@
+.container
+    .row
+        .col-md-8
+            .row
+                - for (var i = 0; i < 3; ++i) 
+                    .col.text-center
+                        figure.figure
+                            img.figure-img.img-fluid.rounded(src='img/brand-others.png' alt='Logo')
+                            figcaption.figure-caption='Logo ' + (i+1) 
+                
+            .row
+                p Nome da rua bairro e numero
+        .col-md-4.mb-5
+            ul.socialmedia
+                li
+                    a(href='#')
+                        i.fa.fa-whatsapp
+                li
+                    a(href='#')
+                        i.fa.fa-instagram
+                li
+                    a(href='#')
+                        i.fa.fa-facebook
+            a(href='#') CENTRAL DE ATENDIMENTO

@@ -1,0 +1,63 @@
+doctype html
+head
+  meta(charset='utf-8')
+  meta(http-equiv='x-ua-compatible' content='ie=edge')
+  meta(name='viewport' content='width=device-width, initial-scale=1')
+  title Teste3
+  link(href='https://fonts.googleapis.com/css?family=Barlow:400,700&display=swap' rel='stylesheet')
+  link(href='https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap' rel='stylesheet')
+  link(href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css", rel="stylesheet", integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN", crossorigin="anonymous")
+  link(rel='stylesheet' href='styles/vendor.css')
+  link(rel='stylesheet' href='styles/main.css')
+  script(src='https://code.jquery.com/jquery-3.3.1.slim.min.js' integrity='sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo' crossorigin='anonymous')
+  script(src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js' integrity='sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1' crossorigin='anonymous')
+  script(src='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js' integrity='sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM' crossorigin='anonymous')
+
+
+  //script(src='js/vendor.js')
+  //script(src='js/app.js')
+body
+  main
+    header
+      include includes/header.pug
+    section#hero
+      aside
+        h2 TESTE DE TEXTO GRANDE NO TOPO
+        ul
+          li Transparência
+          li Comprometimento
+          li União
+    section.mb-5(id='intro')
+      .container
+        .row
+          .col-md-6
+            .wrapper(id='intro-txt')
+              h2 TESTE DE TEXTO GRANDE NO TOPO
+              p.mb-5 A Associação de Engenharia, Arquitetura e Agronomia é uma entidade sem fins lucrativos que tem como objetivos valorizar os profissionais inseridos nos sistemas, e colaborar com o município e a população em geral.
+              ul
+                li 
+                  a(href='#') Conheça os Associados
+                li
+                  a(href='#') Calendário de Eventos
+          .col-md-6(id='associados')
+            .wrapper
+              h3 SEJA UM ASSOCIADO
+              h4 Desde descontos em convênios, até participação gratuita em eventos!
+              ul
+                li Desconto na caderneta de obras. 
+                li Desconto em diversos convênios. 
+                li Possibilidade de participação gratuita em eventos e palestras organizados pela. 
+                li Possibilidade de participação do nosso portal de Profissionais Liberais e, dessa maneira, conquistando mais credibilidade em seu trabalho e aumentando sua carta de clientes. 
+                li Brides promocionais nos eventos.
+    section(id='diretoria')
+      .container
+        h3 DIRETORIA
+        p Conheças os membros da Diretoria e do Conselho da Associação.
+        include includes/staff.pug              
+    section(id='aniversariantes')
+      .container
+        h3 ANIVERSARIANTES
+        p Parabéns aos associados!
+        include includes/anniversary.pug
+    footer(id='footer')
+      include includes/footer.pug
