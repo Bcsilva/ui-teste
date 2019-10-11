@@ -18,52 +18,57 @@
 <body>
   <main>
     <header>
-      <nav class="navbar navbar-expand-lg">
+      <nav class="navbar navbar-light bg-white">
         <div class="container">
-          <div class="col-md-5"><a class="navbar-brand" href="#">
-               <img src="/img/brand-header.png" class="d-inline-block align-top" alt="Invent">Invent</a>
-            <ul class="socialmedia">
-              <li><a href="#"><i class="fa fa-whatsapp"></i></a></li>
-              <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-              <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+          <div class="col-md-5"><a class="navbar-brand d-inline-block text-pink" href="#">
+               <img src='/img/brand-header.png' class='d-inline-block align-top' alt='invent' height='50'>invent</a>
+            <ul class="socialmedia d-inline-block">
+              <li class="d-inline"><a href="#"><i class="fa fa-whatsapp"></i></a></li>
+              <li class="d-inline"><a href="#"><i class="fa fa-instagram"></i></a></li>
+              <li class="d-inline"><a href="#"><i class="fa fa-facebook"></i></a></li>
             </ul>
           </div>
           <div class="col-md-4">
             <p>Rod Luiz Carlos Campos, nº 685 - Jd. São Paulo Andrada - MG</p>
           </div>
-          <div class="col-md-3">
+          <div class="col-md-2">
             <p>(35) 3963-1033</p>
+          </div>
+          <div class="col-md-1">
+            <button class="navbar-toggler text-blue" type="button" data-toggle="collapse" data-target="#navbarsExample01" aria-controls="navbarsExample01" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
           </div>
         </div>
       </nav>
     </header>
     <section id="hero">
-      <aside>
-        <h2>TESTE DE TEXTO GRANDE NO TOPO</h2>
-        <ul>
-          <li>Transparência</li>
-          <li>Comprometimento</li>
-          <li>União</li>
-        </ul>
-      </aside>
+      <div class="container">
+        <aside class="col-md-5 bg-blue text-white">
+          <h2>TESTE DE TEXTO GRANDE NO TOPO</h2>
+          <ul>
+            <li>Transparência</li>
+            <li>Comprometimento</li>
+            <li>União</li>
+          </ul>
+        </aside>
+      </div>
     </section>
     <section class="mb-5" id="intro">
       <div class="container">
         <div class="row">
           <div class="col-md-6">
             <div class="wrapper" id="intro-txt">
-              <h2>TESTE DE TEXTO GRANDE NO TOPO</h2>
+              <h2 class="text-blue">TESTE DE TEXTO GRANDE NO TOPO</h2>
               <p class="mb-5">A Associação de Engenharia, Arquitetura e Agronomia é uma entidade sem fins lucrativos que tem como objetivos valorizar os profissionais inseridos nos sistemas, e colaborar com o município e a população em geral.</p>
               <ul>
-                <li> <a href="#">Conheça os Associados</a></li>
-                <li><a href="#">Calendário de Eventos</a></li>
+                <li> <a class="text-blue" href="#">Conheça os Associados</a></li>
+                <li><a class="text-blue" href="#">Calendário de Eventos</a></li>
               </ul>
             </div>
           </div>
           <div class="col-md-6" id="associados">
-            <div class="wrapper">
-              <h3>SEJA UM ASSOCIADO</h3>
-              <h4>Desde descontos em convênios, até participação gratuita em eventos!</h4>
+            <div class="wrapper border">
+              <h3 class="text-primary">SEJA UM ASSOCIADO</h3>
+              <h4 class="text-secondary">Desde descontos em convênios, até participação gratuita em eventos!</h4>
               <ul>
                 <li>Desconto na caderneta de obras. </li>
                 <li>Desconto em diversos convênios. </li>
@@ -76,7 +81,7 @@
         </div>
       </div>
     </section>
-    <section id="diretoria">
+    <section class="bg-blue text-white" id="diretoria">
       <div class="container">
         <h3>DIRETORIA</h3>
         <p>Conheças os membros da Diretoria e do Conselho da Associação.</p>
@@ -101,13 +106,13 @@
                         <div class="col"><img class="avatar rounded float-left" src="img/a0f7c61c3684f58de951faf610b7ffc1.png" alt="titulo"></div>
                         <div class="col">
                           <div class="card-title">
-                            <h5>PRESIDENTE</h5>
+                            <h5 class="text-red">PRESIDENTE</h5>
                           </div>
                           <div class="card-title">
-                            <h4>José Armando da Silva</h4>
+                            <h4 class="text-blue">José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -119,13 +124,13 @@
                         <div class="col"><img class="avatar rounded float-left" src="img/a0f7c61c3684f58de951faf610b7ffc1.png" alt="titulo"></div>
                         <div class="col">
                           <div class="card-title">
-                            <h5>PRESIDENTE</h5>
+                            <h5 class="text-red">PRESIDENTE</h5>
                           </div>
                           <div class="card-title">
-                            <h4>José Armando da Silva</h4>
+                            <h4 class="text-blue">José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -137,13 +142,13 @@
                         <div class="col"><img class="avatar rounded float-left" src="img/a0f7c61c3684f58de951faf610b7ffc1.png" alt="titulo"></div>
                         <div class="col">
                           <div class="card-title">
-                            <h5>PRESIDENTE</h5>
+                            <h5 class="text-red">PRESIDENTE</h5>
                           </div>
                           <div class="card-title">
-                            <h4>José Armando da Silva</h4>
+                            <h4 class="text-blue">José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -155,13 +160,13 @@
                         <div class="col"><img class="avatar rounded float-left" src="img/a0f7c61c3684f58de951faf610b7ffc1.png" alt="titulo"></div>
                         <div class="col">
                           <div class="card-title">
-                            <h5>PRESIDENTE</h5>
+                            <h5 class="text-red">PRESIDENTE</h5>
                           </div>
                           <div class="card-title">
-                            <h4>José Armando da Silva</h4>
+                            <h4 class="text-blue">José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -173,13 +178,13 @@
                         <div class="col"><img class="avatar rounded float-left" src="img/a0f7c61c3684f58de951faf610b7ffc1.png" alt="titulo"></div>
                         <div class="col">
                           <div class="card-title">
-                            <h5>PRESIDENTE</h5>
+                            <h5 class="text-red">PRESIDENTE</h5>
                           </div>
                           <div class="card-title">
-                            <h4>José Armando da Silva</h4>
+                            <h4 class="text-blue">José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -191,13 +196,13 @@
                         <div class="col"><img class="avatar rounded float-left" src="img/a0f7c61c3684f58de951faf610b7ffc1.png" alt="titulo"></div>
                         <div class="col">
                           <div class="card-title">
-                            <h5>PRESIDENTE</h5>
+                            <h5 class="text-red">PRESIDENTE</h5>
                           </div>
                           <div class="card-title">
-                            <h4>José Armando da Silva</h4>
+                            <h4 class="text-blue">José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -209,13 +214,13 @@
                         <div class="col"><img class="avatar rounded float-left" src="img/a0f7c61c3684f58de951faf610b7ffc1.png" alt="titulo"></div>
                         <div class="col">
                           <div class="card-title">
-                            <h5>PRESIDENTE</h5>
+                            <h5 class="text-red">PRESIDENTE</h5>
                           </div>
                           <div class="card-title">
-                            <h4>José Armando da Silva</h4>
+                            <h4 class="text-blue">José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -227,13 +232,13 @@
                         <div class="col"><img class="avatar rounded float-left" src="img/a0f7c61c3684f58de951faf610b7ffc1.png" alt="titulo"></div>
                         <div class="col">
                           <div class="card-title">
-                            <h5>PRESIDENTE</h5>
+                            <h5 class="text-red">PRESIDENTE</h5>
                           </div>
                           <div class="card-title">
-                            <h4>José Armando da Silva</h4>
+                            <h4 class="text-blue">José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -245,13 +250,13 @@
                         <div class="col"><img class="avatar rounded float-left" src="img/a0f7c61c3684f58de951faf610b7ffc1.png" alt="titulo"></div>
                         <div class="col">
                           <div class="card-title">
-                            <h5>PRESIDENTE</h5>
+                            <h5 class="text-red">PRESIDENTE</h5>
                           </div>
                           <div class="card-title">
-                            <h4>José Armando da Silva</h4>
+                            <h4 class="text-blue">José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -267,13 +272,13 @@
                         <div class="col"><img class="avatar rounded float-left" src="img/a0f7c61c3684f58de951faf610b7ffc1.png" alt="titulo"></div>
                         <div class="col">
                           <div class="card-title">
-                            <h5>VICE-PRESIDENTE</h5>
+                            <h5 class="text-red">VICE-PRESIDENTE</h5>
                           </div>
                           <div class="card-title">
-                            <h4>José Armando da Silva</h4>
+                            <h4 class="text-blue">José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -285,13 +290,13 @@
                         <div class="col"><img class="avatar rounded float-left" src="img/a0f7c61c3684f58de951faf610b7ffc1.png" alt="titulo"></div>
                         <div class="col">
                           <div class="card-title">
-                            <h5>VICE-PRESIDENTE</h5>
+                            <h5 class="text-red">VICE-PRESIDENTE</h5>
                           </div>
                           <div class="card-title">
-                            <h4>José Armando da Silva</h4>
+                            <h4 class="text-blue">José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -303,13 +308,13 @@
                         <div class="col"><img class="avatar rounded float-left" src="img/a0f7c61c3684f58de951faf610b7ffc1.png" alt="titulo"></div>
                         <div class="col">
                           <div class="card-title">
-                            <h5>VICE-PRESIDENTE</h5>
+                            <h5 class="text-red">VICE-PRESIDENTE</h5>
                           </div>
                           <div class="card-title">
-                            <h4>José Armando da Silva</h4>
+                            <h4 class="text-blue">José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -321,13 +326,13 @@
                         <div class="col"><img class="avatar rounded float-left" src="img/a0f7c61c3684f58de951faf610b7ffc1.png" alt="titulo"></div>
                         <div class="col">
                           <div class="card-title">
-                            <h5>VICE-PRESIDENTE</h5>
+                            <h5 class="text-red">VICE-PRESIDENTE</h5>
                           </div>
                           <div class="card-title">
-                            <h4>José Armando da Silva</h4>
+                            <h4 class="text-blue">José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -339,13 +344,13 @@
                         <div class="col"><img class="avatar rounded float-left" src="img/a0f7c61c3684f58de951faf610b7ffc1.png" alt="titulo"></div>
                         <div class="col">
                           <div class="card-title">
-                            <h5>VICE-PRESIDENTE</h5>
+                            <h5 class="text-red">VICE-PRESIDENTE</h5>
                           </div>
                           <div class="card-title">
-                            <h4>José Armando da Silva</h4>
+                            <h4 class="text-blue">José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -357,13 +362,13 @@
                         <div class="col"><img class="avatar rounded float-left" src="img/a0f7c61c3684f58de951faf610b7ffc1.png" alt="titulo"></div>
                         <div class="col">
                           <div class="card-title">
-                            <h5>VICE-PRESIDENTE</h5>
+                            <h5 class="text-red">VICE-PRESIDENTE</h5>
                           </div>
                           <div class="card-title">
-                            <h4>José Armando da Silva</h4>
+                            <h4 class="text-blue">José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -375,13 +380,13 @@
                         <div class="col"><img class="avatar rounded float-left" src="img/a0f7c61c3684f58de951faf610b7ffc1.png" alt="titulo"></div>
                         <div class="col">
                           <div class="card-title">
-                            <h5>VICE-PRESIDENTE</h5>
+                            <h5 class="text-red">VICE-PRESIDENTE</h5>
                           </div>
                           <div class="card-title">
-                            <h4>José Armando da Silva</h4>
+                            <h4 class="text-blue">José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -393,13 +398,13 @@
                         <div class="col"><img class="avatar rounded float-left" src="img/a0f7c61c3684f58de951faf610b7ffc1.png" alt="titulo"></div>
                         <div class="col">
                           <div class="card-title">
-                            <h5>VICE-PRESIDENTE</h5>
+                            <h5 class="text-red">VICE-PRESIDENTE</h5>
                           </div>
                           <div class="card-title">
-                            <h4>José Armando da Silva</h4>
+                            <h4 class="text-blue">José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -411,13 +416,13 @@
                         <div class="col"><img class="avatar rounded float-left" src="img/a0f7c61c3684f58de951faf610b7ffc1.png" alt="titulo"></div>
                         <div class="col">
                           <div class="card-title">
-                            <h5>VICE-PRESIDENTE</h5>
+                            <h5 class="text-red">VICE-PRESIDENTE</h5>
                           </div>
                           <div class="card-title">
-                            <h4>José Armando da Silva</h4>
+                            <h4 class="text-blue">José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -433,13 +438,13 @@
                         <div class="col"><img class="avatar rounded float-left" src="img/a0f7c61c3684f58de951faf610b7ffc1.png" alt="titulo"></div>
                         <div class="col">
                           <div class="card-title">
-                            <h5>SECRETÁRIO</h5>
+                            <h5 class="text-red">SECRETÁRIO</h5>
                           </div>
                           <div class="card-title">
-                            <h4>José Armando da Silva</h4>
+                            <h4 class="text-blue">José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -451,13 +456,13 @@
                         <div class="col"><img class="avatar rounded float-left" src="img/a0f7c61c3684f58de951faf610b7ffc1.png" alt="titulo"></div>
                         <div class="col">
                           <div class="card-title">
-                            <h5>SECRETÁRIO</h5>
+                            <h5 class="text-red">SECRETÁRIO</h5>
                           </div>
                           <div class="card-title">
-                            <h4>José Armando da Silva</h4>
+                            <h4 class="text-blue">José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -469,13 +474,13 @@
                         <div class="col"><img class="avatar rounded float-left" src="img/a0f7c61c3684f58de951faf610b7ffc1.png" alt="titulo"></div>
                         <div class="col">
                           <div class="card-title">
-                            <h5>SECRETÁRIO</h5>
+                            <h5 class="text-red">SECRETÁRIO</h5>
                           </div>
                           <div class="card-title">
-                            <h4>José Armando da Silva</h4>
+                            <h4 class="text-blue">José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -487,13 +492,13 @@
                         <div class="col"><img class="avatar rounded float-left" src="img/a0f7c61c3684f58de951faf610b7ffc1.png" alt="titulo"></div>
                         <div class="col">
                           <div class="card-title">
-                            <h5>SECRETÁRIO</h5>
+                            <h5 class="text-red">SECRETÁRIO</h5>
                           </div>
                           <div class="card-title">
-                            <h4>José Armando da Silva</h4>
+                            <h4 class="text-blue">José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -505,13 +510,13 @@
                         <div class="col"><img class="avatar rounded float-left" src="img/a0f7c61c3684f58de951faf610b7ffc1.png" alt="titulo"></div>
                         <div class="col">
                           <div class="card-title">
-                            <h5>SECRETÁRIO</h5>
+                            <h5 class="text-red">SECRETÁRIO</h5>
                           </div>
                           <div class="card-title">
-                            <h4>José Armando da Silva</h4>
+                            <h4 class="text-blue">José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -523,13 +528,13 @@
                         <div class="col"><img class="avatar rounded float-left" src="img/a0f7c61c3684f58de951faf610b7ffc1.png" alt="titulo"></div>
                         <div class="col">
                           <div class="card-title">
-                            <h5>SECRETÁRIO</h5>
+                            <h5 class="text-red">SECRETÁRIO</h5>
                           </div>
                           <div class="card-title">
-                            <h4>José Armando da Silva</h4>
+                            <h4 class="text-blue">José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -541,13 +546,13 @@
                         <div class="col"><img class="avatar rounded float-left" src="img/a0f7c61c3684f58de951faf610b7ffc1.png" alt="titulo"></div>
                         <div class="col">
                           <div class="card-title">
-                            <h5>SECRETÁRIO</h5>
+                            <h5 class="text-red">SECRETÁRIO</h5>
                           </div>
                           <div class="card-title">
-                            <h4>José Armando da Silva</h4>
+                            <h4 class="text-blue">José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -559,13 +564,13 @@
                         <div class="col"><img class="avatar rounded float-left" src="img/a0f7c61c3684f58de951faf610b7ffc1.png" alt="titulo"></div>
                         <div class="col">
                           <div class="card-title">
-                            <h5>SECRETÁRIO</h5>
+                            <h5 class="text-red">SECRETÁRIO</h5>
                           </div>
                           <div class="card-title">
-                            <h4>José Armando da Silva</h4>
+                            <h4 class="text-blue">José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -577,13 +582,13 @@
                         <div class="col"><img class="avatar rounded float-left" src="img/a0f7c61c3684f58de951faf610b7ffc1.png" alt="titulo"></div>
                         <div class="col">
                           <div class="card-title">
-                            <h5>SECRETÁRIO</h5>
+                            <h5 class="text-red">SECRETÁRIO</h5>
                           </div>
                           <div class="card-title">
-                            <h4>José Armando da Silva</h4>
+                            <h4 class="text-blue">José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -599,13 +604,13 @@
                         <div class="col"><img class="avatar rounded float-left" src="img/a0f7c61c3684f58de951faf610b7ffc1.png" alt="titulo"></div>
                         <div class="col">
                           <div class="card-title">
-                            <h5>VICE-SECRETÁRIO</h5>
+                            <h5 class="text-red">VICE-SECRETÁRIO</h5>
                           </div>
                           <div class="card-title">
-                            <h4>José Armando da Silva</h4>
+                            <h4 class="text-blue">José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -617,13 +622,13 @@
                         <div class="col"><img class="avatar rounded float-left" src="img/a0f7c61c3684f58de951faf610b7ffc1.png" alt="titulo"></div>
                         <div class="col">
                           <div class="card-title">
-                            <h5>VICE-SECRETÁRIO</h5>
+                            <h5 class="text-red">VICE-SECRETÁRIO</h5>
                           </div>
                           <div class="card-title">
-                            <h4>José Armando da Silva</h4>
+                            <h4 class="text-blue">José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -635,13 +640,13 @@
                         <div class="col"><img class="avatar rounded float-left" src="img/a0f7c61c3684f58de951faf610b7ffc1.png" alt="titulo"></div>
                         <div class="col">
                           <div class="card-title">
-                            <h5>VICE-SECRETÁRIO</h5>
+                            <h5 class="text-red">VICE-SECRETÁRIO</h5>
                           </div>
                           <div class="card-title">
-                            <h4>José Armando da Silva</h4>
+                            <h4 class="text-blue">José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -653,13 +658,13 @@
                         <div class="col"><img class="avatar rounded float-left" src="img/a0f7c61c3684f58de951faf610b7ffc1.png" alt="titulo"></div>
                         <div class="col">
                           <div class="card-title">
-                            <h5>VICE-SECRETÁRIO</h5>
+                            <h5 class="text-red">VICE-SECRETÁRIO</h5>
                           </div>
                           <div class="card-title">
-                            <h4>José Armando da Silva</h4>
+                            <h4 class="text-blue">José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -671,13 +676,13 @@
                         <div class="col"><img class="avatar rounded float-left" src="img/a0f7c61c3684f58de951faf610b7ffc1.png" alt="titulo"></div>
                         <div class="col">
                           <div class="card-title">
-                            <h5>VICE-SECRETÁRIO</h5>
+                            <h5 class="text-red">VICE-SECRETÁRIO</h5>
                           </div>
                           <div class="card-title">
-                            <h4>José Armando da Silva</h4>
+                            <h4 class="text-blue">José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -689,13 +694,13 @@
                         <div class="col"><img class="avatar rounded float-left" src="img/a0f7c61c3684f58de951faf610b7ffc1.png" alt="titulo"></div>
                         <div class="col">
                           <div class="card-title">
-                            <h5>VICE-SECRETÁRIO</h5>
+                            <h5 class="text-red">VICE-SECRETÁRIO</h5>
                           </div>
                           <div class="card-title">
-                            <h4>José Armando da Silva</h4>
+                            <h4 class="text-blue">José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -707,13 +712,13 @@
                         <div class="col"><img class="avatar rounded float-left" src="img/a0f7c61c3684f58de951faf610b7ffc1.png" alt="titulo"></div>
                         <div class="col">
                           <div class="card-title">
-                            <h5>VICE-SECRETÁRIO</h5>
+                            <h5 class="text-red">VICE-SECRETÁRIO</h5>
                           </div>
                           <div class="card-title">
-                            <h4>José Armando da Silva</h4>
+                            <h4 class="text-blue">José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -725,13 +730,13 @@
                         <div class="col"><img class="avatar rounded float-left" src="img/a0f7c61c3684f58de951faf610b7ffc1.png" alt="titulo"></div>
                         <div class="col">
                           <div class="card-title">
-                            <h5>VICE-SECRETÁRIO</h5>
+                            <h5 class="text-red">VICE-SECRETÁRIO</h5>
                           </div>
                           <div class="card-title">
-                            <h4>José Armando da Silva</h4>
+                            <h4 class="text-blue">José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -743,13 +748,13 @@
                         <div class="col"><img class="avatar rounded float-left" src="img/a0f7c61c3684f58de951faf610b7ffc1.png" alt="titulo"></div>
                         <div class="col">
                           <div class="card-title">
-                            <h5>VICE-SECRETÁRIO</h5>
+                            <h5 class="text-red">VICE-SECRETÁRIO</h5>
                           </div>
                           <div class="card-title">
-                            <h4>José Armando da Silva</h4>
+                            <h4 class="text-blue">José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -765,13 +770,13 @@
                         <div class="col"><img class="avatar rounded float-left" src="img/a0f7c61c3684f58de951faf610b7ffc1.png" alt="titulo"></div>
                         <div class="col">
                           <div class="card-title">
-                            <h5>VICE-CONSELHEIRO</h5>
+                            <h5 class="text-red">VICE-CONSELHEIRO</h5>
                           </div>
                           <div class="card-title">
-                            <h4>José Armando da Silva</h4>
+                            <h4 class="text-blue">José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -783,13 +788,13 @@
                         <div class="col"><img class="avatar rounded float-left" src="img/a0f7c61c3684f58de951faf610b7ffc1.png" alt="titulo"></div>
                         <div class="col">
                           <div class="card-title">
-                            <h5>VICE-CONSELHEIRO</h5>
+                            <h5 class="text-red">VICE-CONSELHEIRO</h5>
                           </div>
                           <div class="card-title">
-                            <h4>José Armando da Silva</h4>
+                            <h4 class="text-blue">José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -801,13 +806,13 @@
                         <div class="col"><img class="avatar rounded float-left" src="img/a0f7c61c3684f58de951faf610b7ffc1.png" alt="titulo"></div>
                         <div class="col">
                           <div class="card-title">
-                            <h5>VICE-CONSELHEIRO</h5>
+                            <h5 class="text-red">VICE-CONSELHEIRO</h5>
                           </div>
                           <div class="card-title">
-                            <h4>José Armando da Silva</h4>
+                            <h4 class="text-blue">José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -819,13 +824,13 @@
                         <div class="col"><img class="avatar rounded float-left" src="img/a0f7c61c3684f58de951faf610b7ffc1.png" alt="titulo"></div>
                         <div class="col">
                           <div class="card-title">
-                            <h5>VICE-CONSELHEIRO</h5>
+                            <h5 class="text-red">VICE-CONSELHEIRO</h5>
                           </div>
                           <div class="card-title">
-                            <h4>José Armando da Silva</h4>
+                            <h4 class="text-blue">José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -837,13 +842,13 @@
                         <div class="col"><img class="avatar rounded float-left" src="img/a0f7c61c3684f58de951faf610b7ffc1.png" alt="titulo"></div>
                         <div class="col">
                           <div class="card-title">
-                            <h5>VICE-CONSELHEIRO</h5>
+                            <h5 class="text-red">VICE-CONSELHEIRO</h5>
                           </div>
                           <div class="card-title">
-                            <h4>José Armando da Silva</h4>
+                            <h4 class="text-blue">José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -855,13 +860,13 @@
                         <div class="col"><img class="avatar rounded float-left" src="img/a0f7c61c3684f58de951faf610b7ffc1.png" alt="titulo"></div>
                         <div class="col">
                           <div class="card-title">
-                            <h5>VICE-CONSELHEIRO</h5>
+                            <h5 class="text-red">VICE-CONSELHEIRO</h5>
                           </div>
                           <div class="card-title">
-                            <h4>José Armando da Silva</h4>
+                            <h4 class="text-blue">José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -873,13 +878,13 @@
                         <div class="col"><img class="avatar rounded float-left" src="img/a0f7c61c3684f58de951faf610b7ffc1.png" alt="titulo"></div>
                         <div class="col">
                           <div class="card-title">
-                            <h5>VICE-CONSELHEIRO</h5>
+                            <h5 class="text-red">VICE-CONSELHEIRO</h5>
                           </div>
                           <div class="card-title">
-                            <h4>José Armando da Silva</h4>
+                            <h4 class="text-blue">José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -891,13 +896,13 @@
                         <div class="col"><img class="avatar rounded float-left" src="img/a0f7c61c3684f58de951faf610b7ffc1.png" alt="titulo"></div>
                         <div class="col">
                           <div class="card-title">
-                            <h5>VICE-CONSELHEIRO</h5>
+                            <h5 class="text-red">VICE-CONSELHEIRO</h5>
                           </div>
                           <div class="card-title">
-                            <h4>José Armando da Silva</h4>
+                            <h4 class="text-blue">José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -909,13 +914,13 @@
                         <div class="col"><img class="avatar rounded float-left" src="img/a0f7c61c3684f58de951faf610b7ffc1.png" alt="titulo"></div>
                         <div class="col">
                           <div class="card-title">
-                            <h5>VICE-CONSELHEIRO</h5>
+                            <h5 class="text-red">VICE-CONSELHEIRO</h5>
                           </div>
                           <div class="card-title">
-                            <h4>José Armando da Silva</h4>
+                            <h4 class="text-blue">José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -931,13 +936,13 @@
                         <div class="col"><img class="avatar rounded float-left" src="img/a0f7c61c3684f58de951faf610b7ffc1.png" alt="titulo"></div>
                         <div class="col">
                           <div class="card-title">
-                            <h5>EX-PRESIDENTE</h5>
+                            <h5 class="text-red">EX-PRESIDENTE</h5>
                           </div>
                           <div class="card-title">
-                            <h4>José Armando da Silva</h4>
+                            <h4 class="text-blue">José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -949,13 +954,13 @@
                         <div class="col"><img class="avatar rounded float-left" src="img/a0f7c61c3684f58de951faf610b7ffc1.png" alt="titulo"></div>
                         <div class="col">
                           <div class="card-title">
-                            <h5>EX-PRESIDENTE</h5>
+                            <h5 class="text-red">EX-PRESIDENTE</h5>
                           </div>
                           <div class="card-title">
-                            <h4>José Armando da Silva</h4>
+                            <h4 class="text-blue">José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -967,13 +972,13 @@
                         <div class="col"><img class="avatar rounded float-left" src="img/a0f7c61c3684f58de951faf610b7ffc1.png" alt="titulo"></div>
                         <div class="col">
                           <div class="card-title">
-                            <h5>EX-PRESIDENTE</h5>
+                            <h5 class="text-red">EX-PRESIDENTE</h5>
                           </div>
                           <div class="card-title">
-                            <h4>José Armando da Silva</h4>
+                            <h4 class="text-blue">José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -985,13 +990,13 @@
                         <div class="col"><img class="avatar rounded float-left" src="img/a0f7c61c3684f58de951faf610b7ffc1.png" alt="titulo"></div>
                         <div class="col">
                           <div class="card-title">
-                            <h5>EX-PRESIDENTE</h5>
+                            <h5 class="text-red">EX-PRESIDENTE</h5>
                           </div>
                           <div class="card-title">
-                            <h4>José Armando da Silva</h4>
+                            <h4 class="text-blue">José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -1003,13 +1008,13 @@
                         <div class="col"><img class="avatar rounded float-left" src="img/a0f7c61c3684f58de951faf610b7ffc1.png" alt="titulo"></div>
                         <div class="col">
                           <div class="card-title">
-                            <h5>EX-PRESIDENTE</h5>
+                            <h5 class="text-red">EX-PRESIDENTE</h5>
                           </div>
                           <div class="card-title">
-                            <h4>José Armando da Silva</h4>
+                            <h4 class="text-blue">José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -1021,13 +1026,13 @@
                         <div class="col"><img class="avatar rounded float-left" src="img/a0f7c61c3684f58de951faf610b7ffc1.png" alt="titulo"></div>
                         <div class="col">
                           <div class="card-title">
-                            <h5>EX-PRESIDENTE</h5>
+                            <h5 class="text-red">EX-PRESIDENTE</h5>
                           </div>
                           <div class="card-title">
-                            <h4>José Armando da Silva</h4>
+                            <h4 class="text-blue">José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -1039,13 +1044,13 @@
                         <div class="col"><img class="avatar rounded float-left" src="img/a0f7c61c3684f58de951faf610b7ffc1.png" alt="titulo"></div>
                         <div class="col">
                           <div class="card-title">
-                            <h5>EX-PRESIDENTE</h5>
+                            <h5 class="text-red">EX-PRESIDENTE</h5>
                           </div>
                           <div class="card-title">
-                            <h4>José Armando da Silva</h4>
+                            <h4 class="text-blue">José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -1057,13 +1062,13 @@
                         <div class="col"><img class="avatar rounded float-left" src="img/a0f7c61c3684f58de951faf610b7ffc1.png" alt="titulo"></div>
                         <div class="col">
                           <div class="card-title">
-                            <h5>EX-PRESIDENTE</h5>
+                            <h5 class="text-red">EX-PRESIDENTE</h5>
                           </div>
                           <div class="card-title">
-                            <h4>José Armando da Silva</h4>
+                            <h4 class="text-blue">José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -1075,13 +1080,13 @@
                         <div class="col"><img class="avatar rounded float-left" src="img/a0f7c61c3684f58de951faf610b7ffc1.png" alt="titulo"></div>
                         <div class="col">
                           <div class="card-title">
-                            <h5>EX-PRESIDENTE</h5>
+                            <h5 class="text-red">EX-PRESIDENTE</h5>
                           </div>
                           <div class="card-title">
-                            <h4>José Armando da Silva</h4>
+                            <h4 class="text-blue">José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -1094,7 +1099,7 @@
         </div>
       </div>
     </section>
-    <section id="aniversariantes">
+    <section class="bg-light" id="aniversariantes">
       <div class="container">
         <h3>ANIVERSARIANTES</h3>
         <p>Parabéns aos associados!</p>
@@ -1125,14 +1130,14 @@
                     <div class="card-body">
                       <div class="row no-gutters">
                         <div class="col">
-                          <h3>02</h3>
+                          <h3 class="text-red">02</h3>
                         </div>
                         <div class="col">
                           <div class="card-title">
                             <h4>José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -1142,14 +1147,14 @@
                     <div class="card-body">
                       <div class="row no-gutters">
                         <div class="col">
-                          <h3>11</h3>
+                          <h3 class="text-red">11</h3>
                         </div>
                         <div class="col">
                           <div class="card-title">
                             <h4>José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -1159,14 +1164,14 @@
                     <div class="card-body">
                       <div class="row no-gutters">
                         <div class="col">
-                          <h3>12</h3>
+                          <h3 class="text-red">12</h3>
                         </div>
                         <div class="col">
                           <div class="card-title">
                             <h4>José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -1176,14 +1181,14 @@
                     <div class="card-body">
                       <div class="row no-gutters">
                         <div class="col">
-                          <h3>14</h3>
+                          <h3 class="text-red">14</h3>
                         </div>
                         <div class="col">
                           <div class="card-title">
                             <h4>José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -1193,14 +1198,14 @@
                     <div class="card-body">
                       <div class="row no-gutters">
                         <div class="col">
-                          <h3>15</h3>
+                          <h3 class="text-red">15</h3>
                         </div>
                         <div class="col">
                           <div class="card-title">
                             <h4>José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -1210,14 +1215,14 @@
                     <div class="card-body">
                       <div class="row no-gutters">
                         <div class="col">
-                          <h3>20</h3>
+                          <h3 class="text-red">20</h3>
                         </div>
                         <div class="col">
                           <div class="card-title">
                             <h4>José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -1227,14 +1232,14 @@
                     <div class="card-body">
                       <div class="row no-gutters">
                         <div class="col">
-                          <h3>22</h3>
+                          <h3 class="text-red">22</h3>
                         </div>
                         <div class="col">
                           <div class="card-title">
                             <h4>José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -1244,14 +1249,14 @@
                     <div class="card-body">
                       <div class="row no-gutters">
                         <div class="col">
-                          <h3>22</h3>
+                          <h3 class="text-red">22</h3>
                         </div>
                         <div class="col">
                           <div class="card-title">
                             <h4>José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -1261,14 +1266,14 @@
                     <div class="card-body">
                       <div class="row no-gutters">
                         <div class="col">
-                          <h3>25</h3>
+                          <h3 class="text-red">25</h3>
                         </div>
                         <div class="col">
                           <div class="card-title">
                             <h4>José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -1282,14 +1287,14 @@
                     <div class="card-body">
                       <div class="row no-gutters">
                         <div class="col">
-                          <h3>01</h3>
+                          <h3 class="text-red">01</h3>
                         </div>
                         <div class="col">
                           <div class="card-title">
                             <h4>José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -1299,14 +1304,14 @@
                     <div class="card-body">
                       <div class="row no-gutters">
                         <div class="col">
-                          <h3>15</h3>
+                          <h3 class="text-red">15</h3>
                         </div>
                         <div class="col">
                           <div class="card-title">
                             <h4>José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -1316,14 +1321,14 @@
                     <div class="card-body">
                       <div class="row no-gutters">
                         <div class="col">
-                          <h3>15</h3>
+                          <h3 class="text-red">15</h3>
                         </div>
                         <div class="col">
                           <div class="card-title">
                             <h4>José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -1333,14 +1338,14 @@
                     <div class="card-body">
                       <div class="row no-gutters">
                         <div class="col">
-                          <h3>17</h3>
+                          <h3 class="text-red">17</h3>
                         </div>
                         <div class="col">
                           <div class="card-title">
                             <h4>José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -1350,14 +1355,14 @@
                     <div class="card-body">
                       <div class="row no-gutters">
                         <div class="col">
-                          <h3>18</h3>
+                          <h3 class="text-red">18</h3>
                         </div>
                         <div class="col">
                           <div class="card-title">
                             <h4>José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -1367,14 +1372,14 @@
                     <div class="card-body">
                       <div class="row no-gutters">
                         <div class="col">
-                          <h3>21</h3>
+                          <h3 class="text-red">21</h3>
                         </div>
                         <div class="col">
                           <div class="card-title">
                             <h4>José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -1384,14 +1389,14 @@
                     <div class="card-body">
                       <div class="row no-gutters">
                         <div class="col">
-                          <h3>22</h3>
+                          <h3 class="text-red">22</h3>
                         </div>
                         <div class="col">
                           <div class="card-title">
                             <h4>José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -1401,14 +1406,14 @@
                     <div class="card-body">
                       <div class="row no-gutters">
                         <div class="col">
-                          <h3>24</h3>
+                          <h3 class="text-red">24</h3>
                         </div>
                         <div class="col">
                           <div class="card-title">
                             <h4>José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -1418,14 +1423,14 @@
                     <div class="card-body">
                       <div class="row no-gutters">
                         <div class="col">
-                          <h3>25</h3>
+                          <h3 class="text-red">25</h3>
                         </div>
                         <div class="col">
                           <div class="card-title">
                             <h4>José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -1439,14 +1444,14 @@
                     <div class="card-body">
                       <div class="row no-gutters">
                         <div class="col">
-                          <h3>04</h3>
+                          <h3 class="text-red">04</h3>
                         </div>
                         <div class="col">
                           <div class="card-title">
                             <h4>José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -1456,14 +1461,14 @@
                     <div class="card-body">
                       <div class="row no-gutters">
                         <div class="col">
-                          <h3>16</h3>
+                          <h3 class="text-red">16</h3>
                         </div>
                         <div class="col">
                           <div class="card-title">
                             <h4>José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -1473,14 +1478,14 @@
                     <div class="card-body">
                       <div class="row no-gutters">
                         <div class="col">
-                          <h3>17</h3>
+                          <h3 class="text-red">17</h3>
                         </div>
                         <div class="col">
                           <div class="card-title">
                             <h4>José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -1490,14 +1495,14 @@
                     <div class="card-body">
                       <div class="row no-gutters">
                         <div class="col">
-                          <h3>17</h3>
+                          <h3 class="text-red">17</h3>
                         </div>
                         <div class="col">
                           <div class="card-title">
                             <h4>José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -1507,14 +1512,14 @@
                     <div class="card-body">
                       <div class="row no-gutters">
                         <div class="col">
-                          <h3>19</h3>
+                          <h3 class="text-red">19</h3>
                         </div>
                         <div class="col">
                           <div class="card-title">
                             <h4>José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -1524,14 +1529,14 @@
                     <div class="card-body">
                       <div class="row no-gutters">
                         <div class="col">
-                          <h3>20</h3>
+                          <h3 class="text-red">20</h3>
                         </div>
                         <div class="col">
                           <div class="card-title">
                             <h4>José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -1541,14 +1546,14 @@
                     <div class="card-body">
                       <div class="row no-gutters">
                         <div class="col">
-                          <h3>21</h3>
+                          <h3 class="text-red">21</h3>
                         </div>
                         <div class="col">
                           <div class="card-title">
                             <h4>José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -1558,14 +1563,14 @@
                     <div class="card-body">
                       <div class="row no-gutters">
                         <div class="col">
-                          <h3>22</h3>
+                          <h3 class="text-red">22</h3>
                         </div>
                         <div class="col">
                           <div class="card-title">
                             <h4>José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -1575,14 +1580,14 @@
                     <div class="card-body">
                       <div class="row no-gutters">
                         <div class="col">
-                          <h3>23</h3>
+                          <h3 class="text-red">23</h3>
                         </div>
                         <div class="col">
                           <div class="card-title">
                             <h4>José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -1596,14 +1601,14 @@
                     <div class="card-body">
                       <div class="row no-gutters">
                         <div class="col">
-                          <h3>08</h3>
+                          <h3 class="text-red">08</h3>
                         </div>
                         <div class="col">
                           <div class="card-title">
                             <h4>José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -1613,14 +1618,14 @@
                     <div class="card-body">
                       <div class="row no-gutters">
                         <div class="col">
-                          <h3>17</h3>
+                          <h3 class="text-red">17</h3>
                         </div>
                         <div class="col">
                           <div class="card-title">
                             <h4>José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -1630,14 +1635,14 @@
                     <div class="card-body">
                       <div class="row no-gutters">
                         <div class="col">
-                          <h3>18</h3>
+                          <h3 class="text-red">18</h3>
                         </div>
                         <div class="col">
                           <div class="card-title">
                             <h4>José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -1647,14 +1652,14 @@
                     <div class="card-body">
                       <div class="row no-gutters">
                         <div class="col">
-                          <h3>19</h3>
+                          <h3 class="text-red">19</h3>
                         </div>
                         <div class="col">
                           <div class="card-title">
                             <h4>José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -1664,14 +1669,14 @@
                     <div class="card-body">
                       <div class="row no-gutters">
                         <div class="col">
-                          <h3>19</h3>
+                          <h3 class="text-red">19</h3>
                         </div>
                         <div class="col">
                           <div class="card-title">
                             <h4>José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -1681,14 +1686,14 @@
                     <div class="card-body">
                       <div class="row no-gutters">
                         <div class="col">
-                          <h3>26</h3>
+                          <h3 class="text-red">26</h3>
                         </div>
                         <div class="col">
                           <div class="card-title">
                             <h4>José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -1698,14 +1703,14 @@
                     <div class="card-body">
                       <div class="row no-gutters">
                         <div class="col">
-                          <h3>27</h3>
+                          <h3 class="text-red">27</h3>
                         </div>
                         <div class="col">
                           <div class="card-title">
                             <h4>José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -1715,14 +1720,14 @@
                     <div class="card-body">
                       <div class="row no-gutters">
                         <div class="col">
-                          <h3>28</h3>
+                          <h3 class="text-red">28</h3>
                         </div>
                         <div class="col">
                           <div class="card-title">
                             <h4>José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -1732,14 +1737,14 @@
                     <div class="card-body">
                       <div class="row no-gutters">
                         <div class="col">
-                          <h3>28</h3>
+                          <h3 class="text-red">28</h3>
                         </div>
                         <div class="col">
                           <div class="card-title">
                             <h4>José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -1753,14 +1758,14 @@
                     <div class="card-body">
                       <div class="row no-gutters">
                         <div class="col">
-                          <h3>09</h3>
+                          <h3 class="text-red">09</h3>
                         </div>
                         <div class="col">
                           <div class="card-title">
                             <h4>José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -1770,14 +1775,14 @@
                     <div class="card-body">
                       <div class="row no-gutters">
                         <div class="col">
-                          <h3>12</h3>
+                          <h3 class="text-red">12</h3>
                         </div>
                         <div class="col">
                           <div class="card-title">
                             <h4>José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -1787,14 +1792,14 @@
                     <div class="card-body">
                       <div class="row no-gutters">
                         <div class="col">
-                          <h3>12</h3>
+                          <h3 class="text-red">12</h3>
                         </div>
                         <div class="col">
                           <div class="card-title">
                             <h4>José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -1804,14 +1809,14 @@
                     <div class="card-body">
                       <div class="row no-gutters">
                         <div class="col">
-                          <h3>14</h3>
+                          <h3 class="text-red">14</h3>
                         </div>
                         <div class="col">
                           <div class="card-title">
                             <h4>José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -1821,14 +1826,14 @@
                     <div class="card-body">
                       <div class="row no-gutters">
                         <div class="col">
-                          <h3>15</h3>
+                          <h3 class="text-red">15</h3>
                         </div>
                         <div class="col">
                           <div class="card-title">
                             <h4>José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -1838,14 +1843,14 @@
                     <div class="card-body">
                       <div class="row no-gutters">
                         <div class="col">
-                          <h3>20</h3>
+                          <h3 class="text-red">20</h3>
                         </div>
                         <div class="col">
                           <div class="card-title">
                             <h4>José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -1855,14 +1860,14 @@
                     <div class="card-body">
                       <div class="row no-gutters">
                         <div class="col">
-                          <h3>22</h3>
+                          <h3 class="text-red">22</h3>
                         </div>
                         <div class="col">
                           <div class="card-title">
                             <h4>José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -1872,14 +1877,14 @@
                     <div class="card-body">
                       <div class="row no-gutters">
                         <div class="col">
-                          <h3>22</h3>
+                          <h3 class="text-red">22</h3>
                         </div>
                         <div class="col">
                           <div class="card-title">
                             <h4>José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -1889,14 +1894,14 @@
                     <div class="card-body">
                       <div class="row no-gutters">
                         <div class="col">
-                          <h3>25</h3>
+                          <h3 class="text-red">25</h3>
                         </div>
                         <div class="col">
                           <div class="card-title">
                             <h4>José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -1910,14 +1915,14 @@
                     <div class="card-body">
                       <div class="row no-gutters">
                         <div class="col">
-                          <h3>03</h3>
+                          <h3 class="text-red">03</h3>
                         </div>
                         <div class="col">
                           <div class="card-title">
                             <h4>José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -1927,14 +1932,14 @@
                     <div class="card-body">
                       <div class="row no-gutters">
                         <div class="col">
-                          <h3>09</h3>
+                          <h3 class="text-red">09</h3>
                         </div>
                         <div class="col">
                           <div class="card-title">
                             <h4>José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -1944,14 +1949,14 @@
                     <div class="card-body">
                       <div class="row no-gutters">
                         <div class="col">
-                          <h3>09</h3>
+                          <h3 class="text-red">09</h3>
                         </div>
                         <div class="col">
                           <div class="card-title">
                             <h4>José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -1961,14 +1966,14 @@
                     <div class="card-body">
                       <div class="row no-gutters">
                         <div class="col">
-                          <h3>14</h3>
+                          <h3 class="text-red">14</h3>
                         </div>
                         <div class="col">
                           <div class="card-title">
                             <h4>José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -1978,14 +1983,14 @@
                     <div class="card-body">
                       <div class="row no-gutters">
                         <div class="col">
-                          <h3>15</h3>
+                          <h3 class="text-red">15</h3>
                         </div>
                         <div class="col">
                           <div class="card-title">
                             <h4>José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -1995,14 +2000,14 @@
                     <div class="card-body">
                       <div class="row no-gutters">
                         <div class="col">
-                          <h3>22</h3>
+                          <h3 class="text-red">22</h3>
                         </div>
                         <div class="col">
                           <div class="card-title">
                             <h4>José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -2012,14 +2017,14 @@
                     <div class="card-body">
                       <div class="row no-gutters">
                         <div class="col">
-                          <h3>22</h3>
+                          <h3 class="text-red">22</h3>
                         </div>
                         <div class="col">
                           <div class="card-title">
                             <h4>José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -2029,14 +2034,14 @@
                     <div class="card-body">
                       <div class="row no-gutters">
                         <div class="col">
-                          <h3>26</h3>
+                          <h3 class="text-red">26</h3>
                         </div>
                         <div class="col">
                           <div class="card-title">
                             <h4>José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -2046,14 +2051,14 @@
                     <div class="card-body">
                       <div class="row no-gutters">
                         <div class="col">
-                          <h3>29</h3>
+                          <h3 class="text-red">29</h3>
                         </div>
                         <div class="col">
                           <div class="card-title">
                             <h4>José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -2067,14 +2072,14 @@
                     <div class="card-body">
                       <div class="row no-gutters">
                         <div class="col">
-                          <h3>02</h3>
+                          <h3 class="text-red">02</h3>
                         </div>
                         <div class="col">
                           <div class="card-title">
                             <h4>José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -2084,14 +2089,14 @@
                     <div class="card-body">
                       <div class="row no-gutters">
                         <div class="col">
-                          <h3>03</h3>
+                          <h3 class="text-red">03</h3>
                         </div>
                         <div class="col">
                           <div class="card-title">
                             <h4>José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -2101,14 +2106,14 @@
                     <div class="card-body">
                       <div class="row no-gutters">
                         <div class="col">
-                          <h3>07</h3>
+                          <h3 class="text-red">07</h3>
                         </div>
                         <div class="col">
                           <div class="card-title">
                             <h4>José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -2118,14 +2123,14 @@
                     <div class="card-body">
                       <div class="row no-gutters">
                         <div class="col">
-                          <h3>14</h3>
+                          <h3 class="text-red">14</h3>
                         </div>
                         <div class="col">
                           <div class="card-title">
                             <h4>José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -2135,14 +2140,14 @@
                     <div class="card-body">
                       <div class="row no-gutters">
                         <div class="col">
-                          <h3>15</h3>
+                          <h3 class="text-red">15</h3>
                         </div>
                         <div class="col">
                           <div class="card-title">
                             <h4>José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -2152,14 +2157,14 @@
                     <div class="card-body">
                       <div class="row no-gutters">
                         <div class="col">
-                          <h3>20</h3>
+                          <h3 class="text-red">20</h3>
                         </div>
                         <div class="col">
                           <div class="card-title">
                             <h4>José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -2169,14 +2174,14 @@
                     <div class="card-body">
                       <div class="row no-gutters">
                         <div class="col">
-                          <h3>22</h3>
+                          <h3 class="text-red">22</h3>
                         </div>
                         <div class="col">
                           <div class="card-title">
                             <h4>José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -2186,14 +2191,14 @@
                     <div class="card-body">
                       <div class="row no-gutters">
                         <div class="col">
-                          <h3>22</h3>
+                          <h3 class="text-red">22</h3>
                         </div>
                         <div class="col">
                           <div class="card-title">
                             <h4>José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -2203,14 +2208,14 @@
                     <div class="card-body">
                       <div class="row no-gutters">
                         <div class="col">
-                          <h3>25</h3>
+                          <h3 class="text-red">25</h3>
                         </div>
                         <div class="col">
                           <div class="card-title">
                             <h4>José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -2224,14 +2229,14 @@
                     <div class="card-body">
                       <div class="row no-gutters">
                         <div class="col">
-                          <h3>01</h3>
+                          <h3 class="text-red">01</h3>
                         </div>
                         <div class="col">
                           <div class="card-title">
                             <h4>José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -2241,14 +2246,14 @@
                     <div class="card-body">
                       <div class="row no-gutters">
                         <div class="col">
-                          <h3>13</h3>
+                          <h3 class="text-red">13</h3>
                         </div>
                         <div class="col">
                           <div class="card-title">
                             <h4>José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -2258,14 +2263,14 @@
                     <div class="card-body">
                       <div class="row no-gutters">
                         <div class="col">
-                          <h3>12</h3>
+                          <h3 class="text-red">12</h3>
                         </div>
                         <div class="col">
                           <div class="card-title">
                             <h4>José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -2275,14 +2280,14 @@
                     <div class="card-body">
                       <div class="row no-gutters">
                         <div class="col">
-                          <h3>14</h3>
+                          <h3 class="text-red">14</h3>
                         </div>
                         <div class="col">
                           <div class="card-title">
                             <h4>José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -2292,14 +2297,14 @@
                     <div class="card-body">
                       <div class="row no-gutters">
                         <div class="col">
-                          <h3>15</h3>
+                          <h3 class="text-red">15</h3>
                         </div>
                         <div class="col">
                           <div class="card-title">
                             <h4>José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -2309,14 +2314,14 @@
                     <div class="card-body">
                       <div class="row no-gutters">
                         <div class="col">
-                          <h3>20</h3>
+                          <h3 class="text-red">20</h3>
                         </div>
                         <div class="col">
                           <div class="card-title">
                             <h4>José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -2326,14 +2331,14 @@
                     <div class="card-body">
                       <div class="row no-gutters">
                         <div class="col">
-                          <h3>22</h3>
+                          <h3 class="text-red">22</h3>
                         </div>
                         <div class="col">
                           <div class="card-title">
                             <h4>José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -2343,14 +2348,14 @@
                     <div class="card-body">
                       <div class="row no-gutters">
                         <div class="col">
-                          <h3>22</h3>
+                          <h3 class="text-red">22</h3>
                         </div>
                         <div class="col">
                           <div class="card-title">
                             <h4>José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -2360,14 +2365,14 @@
                     <div class="card-body">
                       <div class="row no-gutters">
                         <div class="col">
-                          <h3>25</h3>
+                          <h3 class="text-red">25</h3>
                         </div>
                         <div class="col">
                           <div class="card-title">
                             <h4>José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -2381,14 +2386,14 @@
                     <div class="card-body">
                       <div class="row no-gutters">
                         <div class="col">
-                          <h3>05</h3>
+                          <h3 class="text-red">05</h3>
                         </div>
                         <div class="col">
                           <div class="card-title">
                             <h4>José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -2398,14 +2403,14 @@
                     <div class="card-body">
                       <div class="row no-gutters">
                         <div class="col">
-                          <h3>12</h3>
+                          <h3 class="text-red">12</h3>
                         </div>
                         <div class="col">
                           <div class="card-title">
                             <h4>José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -2415,14 +2420,14 @@
                     <div class="card-body">
                       <div class="row no-gutters">
                         <div class="col">
-                          <h3>12</h3>
+                          <h3 class="text-red">12</h3>
                         </div>
                         <div class="col">
                           <div class="card-title">
                             <h4>José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -2432,14 +2437,14 @@
                     <div class="card-body">
                       <div class="row no-gutters">
                         <div class="col">
-                          <h3>14</h3>
+                          <h3 class="text-red">14</h3>
                         </div>
                         <div class="col">
                           <div class="card-title">
                             <h4>José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -2449,14 +2454,14 @@
                     <div class="card-body">
                       <div class="row no-gutters">
                         <div class="col">
-                          <h3>15</h3>
+                          <h3 class="text-red">15</h3>
                         </div>
                         <div class="col">
                           <div class="card-title">
                             <h4>José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -2466,14 +2471,14 @@
                     <div class="card-body">
                       <div class="row no-gutters">
                         <div class="col">
-                          <h3>20</h3>
+                          <h3 class="text-red">20</h3>
                         </div>
                         <div class="col">
                           <div class="card-title">
                             <h4>José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -2483,14 +2488,14 @@
                     <div class="card-body">
                       <div class="row no-gutters">
                         <div class="col">
-                          <h3>22</h3>
+                          <h3 class="text-red">22</h3>
                         </div>
                         <div class="col">
                           <div class="card-title">
                             <h4>José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -2500,14 +2505,14 @@
                     <div class="card-body">
                       <div class="row no-gutters">
                         <div class="col">
-                          <h3>22</h3>
+                          <h3 class="text-red">22</h3>
                         </div>
                         <div class="col">
                           <div class="card-title">
                             <h4>José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -2517,14 +2522,14 @@
                     <div class="card-body">
                       <div class="row no-gutters">
                         <div class="col">
-                          <h3>25</h3>
+                          <h3 class="text-red">25</h3>
                         </div>
                         <div class="col">
                           <div class="card-title">
                             <h4>José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -2538,14 +2543,14 @@
                     <div class="card-body">
                       <div class="row no-gutters">
                         <div class="col">
-                          <h3>06</h3>
+                          <h3 class="text-red">06</h3>
                         </div>
                         <div class="col">
                           <div class="card-title">
                             <h4>José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -2555,14 +2560,14 @@
                     <div class="card-body">
                       <div class="row no-gutters">
                         <div class="col">
-                          <h3>11</h3>
+                          <h3 class="text-red">11</h3>
                         </div>
                         <div class="col">
                           <div class="card-title">
                             <h4>José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -2572,14 +2577,14 @@
                     <div class="card-body">
                       <div class="row no-gutters">
                         <div class="col">
-                          <h3>11</h3>
+                          <h3 class="text-red">11</h3>
                         </div>
                         <div class="col">
                           <div class="card-title">
                             <h4>José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -2589,14 +2594,14 @@
                     <div class="card-body">
                       <div class="row no-gutters">
                         <div class="col">
-                          <h3>14</h3>
+                          <h3 class="text-red">14</h3>
                         </div>
                         <div class="col">
                           <div class="card-title">
                             <h4>José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -2606,14 +2611,14 @@
                     <div class="card-body">
                       <div class="row no-gutters">
                         <div class="col">
-                          <h3>15</h3>
+                          <h3 class="text-red">15</h3>
                         </div>
                         <div class="col">
                           <div class="card-title">
                             <h4>José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -2623,14 +2628,14 @@
                     <div class="card-body">
                       <div class="row no-gutters">
                         <div class="col">
-                          <h3>20</h3>
+                          <h3 class="text-red">20</h3>
                         </div>
                         <div class="col">
                           <div class="card-title">
                             <h4>José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -2640,14 +2645,14 @@
                     <div class="card-body">
                       <div class="row no-gutters">
                         <div class="col">
-                          <h3>22</h3>
+                          <h3 class="text-red">22</h3>
                         </div>
                         <div class="col">
                           <div class="card-title">
                             <h4>José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -2657,14 +2662,14 @@
                     <div class="card-body">
                       <div class="row no-gutters">
                         <div class="col">
-                          <h3>22</h3>
+                          <h3 class="text-red">22</h3>
                         </div>
                         <div class="col">
                           <div class="card-title">
                             <h4>José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -2674,14 +2679,14 @@
                     <div class="card-body">
                       <div class="row no-gutters">
                         <div class="col">
-                          <h3>25</h3>
+                          <h3 class="text-red">25</h3>
                         </div>
                         <div class="col">
                           <div class="card-title">
                             <h4>José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -2695,14 +2700,14 @@
                     <div class="card-body">
                       <div class="row no-gutters">
                         <div class="col">
-                          <h3>07</h3>
+                          <h3 class="text-red">07</h3>
                         </div>
                         <div class="col">
                           <div class="card-title">
                             <h4>José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -2712,14 +2717,14 @@
                     <div class="card-body">
                       <div class="row no-gutters">
                         <div class="col">
-                          <h3>09</h3>
+                          <h3 class="text-red">09</h3>
                         </div>
                         <div class="col">
                           <div class="card-title">
                             <h4>José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -2729,14 +2734,14 @@
                     <div class="card-body">
                       <div class="row no-gutters">
                         <div class="col">
-                          <h3>13</h3>
+                          <h3 class="text-red">13</h3>
                         </div>
                         <div class="col">
                           <div class="card-title">
                             <h4>José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -2746,14 +2751,14 @@
                     <div class="card-body">
                       <div class="row no-gutters">
                         <div class="col">
-                          <h3>14</h3>
+                          <h3 class="text-red">14</h3>
                         </div>
                         <div class="col">
                           <div class="card-title">
                             <h4>José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -2763,14 +2768,14 @@
                     <div class="card-body">
                       <div class="row no-gutters">
                         <div class="col">
-                          <h3>15</h3>
+                          <h3 class="text-red">15</h3>
                         </div>
                         <div class="col">
                           <div class="card-title">
                             <h4>José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -2780,14 +2785,14 @@
                     <div class="card-body">
                       <div class="row no-gutters">
                         <div class="col">
-                          <h3>20</h3>
+                          <h3 class="text-red">20</h3>
                         </div>
                         <div class="col">
                           <div class="card-title">
                             <h4>José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -2797,14 +2802,14 @@
                     <div class="card-body">
                       <div class="row no-gutters">
                         <div class="col">
-                          <h3>22</h3>
+                          <h3 class="text-red">22</h3>
                         </div>
                         <div class="col">
                           <div class="card-title">
                             <h4>José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -2814,14 +2819,14 @@
                     <div class="card-body">
                       <div class="row no-gutters">
                         <div class="col">
-                          <h3>22</h3>
+                          <h3 class="text-red">22</h3>
                         </div>
                         <div class="col">
                           <div class="card-title">
                             <h4>José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -2831,14 +2836,14 @@
                     <div class="card-body">
                       <div class="row no-gutters">
                         <div class="col">
-                          <h3>25</h3>
+                          <h3 class="text-red">25</h3>
                         </div>
                         <div class="col">
                           <div class="card-title">
                             <h4>José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -2852,14 +2857,14 @@
                     <div class="card-body">
                       <div class="row no-gutters">
                         <div class="col">
-                          <h3>09</h3>
+                          <h3 class="text-red">09</h3>
                         </div>
                         <div class="col">
                           <div class="card-title">
                             <h4>José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -2869,14 +2874,14 @@
                     <div class="card-body">
                       <div class="row no-gutters">
                         <div class="col">
-                          <h3>11</h3>
+                          <h3 class="text-red">11</h3>
                         </div>
                         <div class="col">
                           <div class="card-title">
                             <h4>José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -2886,14 +2891,14 @@
                     <div class="card-body">
                       <div class="row no-gutters">
                         <div class="col">
-                          <h3>12</h3>
+                          <h3 class="text-red">12</h3>
                         </div>
                         <div class="col">
                           <div class="card-title">
                             <h4>José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -2903,14 +2908,14 @@
                     <div class="card-body">
                       <div class="row no-gutters">
                         <div class="col">
-                          <h3>14</h3>
+                          <h3 class="text-red">14</h3>
                         </div>
                         <div class="col">
                           <div class="card-title">
                             <h4>José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -2920,14 +2925,14 @@
                     <div class="card-body">
                       <div class="row no-gutters">
                         <div class="col">
-                          <h3>15</h3>
+                          <h3 class="text-red">15</h3>
                         </div>
                         <div class="col">
                           <div class="card-title">
                             <h4>José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -2937,14 +2942,14 @@
                     <div class="card-body">
                       <div class="row no-gutters">
                         <div class="col">
-                          <h3>20</h3>
+                          <h3 class="text-red">20</h3>
                         </div>
                         <div class="col">
                           <div class="card-title">
                             <h4>José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -2954,14 +2959,14 @@
                     <div class="card-body">
                       <div class="row no-gutters">
                         <div class="col">
-                          <h3>22</h3>
+                          <h3 class="text-red">22</h3>
                         </div>
                         <div class="col">
                           <div class="card-title">
                             <h4>José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -2971,14 +2976,14 @@
                     <div class="card-body">
                       <div class="row no-gutters">
                         <div class="col">
-                          <h3>22</h3>
+                          <h3 class="text-red">22</h3>
                         </div>
                         <div class="col">
                           <div class="card-title">
                             <h4>José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -2988,14 +2993,14 @@
                     <div class="card-body">
                       <div class="row no-gutters">
                         <div class="col">
-                          <h3>25</h3>
+                          <h3 class="text-red">25</h3>
                         </div>
                         <div class="col">
                           <div class="card-title">
                             <h4>José Armando da Silva</h4>
                           </div>
                           <div class="card-text">
-                            <p>Engenheiro Eletricista/Telecomunicações</p>
+                            <p class="text-gray">Engenheiro Eletricista/Telecomunicações</p>
                           </div>
                         </div>
                       </div>
@@ -3014,17 +3019,17 @@
           <div class="col-md-8">
             <div class="row">
               <div class="col text-center">
-                <figure class="figure"><img class="figure-img img-fluid rounded" src="img/brand-others.png" alt="Logo">
+                <figure class="figure"><img class="figure-img img-fluid rounded" src="img/brand-others.png" alt="Logo" height="75">
                   <figcaption class="figure-caption">Logo 1</figcaption>
                 </figure>
               </div>
               <div class="col text-center">
-                <figure class="figure"><img class="figure-img img-fluid rounded" src="img/brand-others.png" alt="Logo">
+                <figure class="figure"><img class="figure-img img-fluid rounded" src="img/brand-others.png" alt="Logo" height="75">
                   <figcaption class="figure-caption">Logo 2</figcaption>
                 </figure>
               </div>
               <div class="col text-center">
-                <figure class="figure"><img class="figure-img img-fluid rounded" src="img/brand-others.png" alt="Logo">
+                <figure class="figure"><img class="figure-img img-fluid rounded" src="img/brand-others.png" alt="Logo" height="75">
                   <figcaption class="figure-caption">Logo 3</figcaption>
                 </figure>
               </div>
@@ -3034,11 +3039,11 @@
             </div>
           </div>
           <div class="col-md-4 mb-5">
-            <ul class="socialmedia">
-              <li><a href="#"><i class="fa fa-whatsapp"></i></a></li>
-              <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-              <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-            </ul><a href="#">CENTRAL DE ATENDIMENTO</a>
+            <ul class="socialmedia d-inline-block m-0 p-0">
+              <li class="d-inline m-0 p-0"><a href="#"><i class="fa fa-whatsapp"></i></a></li>
+              <li class="d-inline m-0 p-0"><a href="#"><i class="fa fa-instagram"></i></a></li>
+              <li class="d-inline m-0 p-0"><a href="#"><i class="fa fa-facebook"></i></a></li>
+            </ul><a class="text-blue" href="#">CENTRAL DE ATENDIMENTO</a>
           </div>
         </div>
       </div>

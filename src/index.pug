@@ -21,40 +21,41 @@ body
     header
       include includes/header.pug
     section#hero
-      aside
-        h2 TESTE DE TEXTO GRANDE NO TOPO
-        ul
-          li Transparência
-          li Comprometimento
-          li União
+      .container
+        aside.col-md-5.bg-blue.text-white
+          h2 TESTE DE TEXTO GRANDE NO TOPO
+          ul
+            li Transparência
+            li Comprometimento
+            li União
     section.mb-5(id='intro')
       .container
         .row
           .col-md-6
             .wrapper(id='intro-txt')
-              h2 TESTE DE TEXTO GRANDE NO TOPO
+              h2.text-blue TESTE DE TEXTO GRANDE NO TOPO
               p.mb-5 A Associação de Engenharia, Arquitetura e Agronomia é uma entidade sem fins lucrativos que tem como objetivos valorizar os profissionais inseridos nos sistemas, e colaborar com o município e a população em geral.
               ul
                 li 
-                  a(href='#') Conheça os Associados
+                  a.text-blue(href='#') Conheça os Associados
                 li
-                  a(href='#') Calendário de Eventos
+                  a.text-blue(href='#') Calendário de Eventos
           .col-md-6(id='associados')
-            .wrapper
-              h3 SEJA UM ASSOCIADO
-              h4 Desde descontos em convênios, até participação gratuita em eventos!
+            .wrapper.border
+              h3.text-primary SEJA UM ASSOCIADO
+              h4.text-secondary Desde descontos em convênios, até participação gratuita em eventos!
               ul
                 li Desconto na caderneta de obras. 
                 li Desconto em diversos convênios. 
                 li Possibilidade de participação gratuita em eventos e palestras organizados pela. 
                 li Possibilidade de participação do nosso portal de Profissionais Liberais e, dessa maneira, conquistando mais credibilidade em seu trabalho e aumentando sua carta de clientes. 
                 li Brides promocionais nos eventos.
-    section(id='diretoria')
+    section#diretoria.bg-blue.text-white
       .container
         h3 DIRETORIA
         p Conheças os membros da Diretoria e do Conselho da Associação.
         include includes/staff.pug              
-    section(id='aniversariantes')
+    section#aniversariantes.bg-light
       .container
         h3 ANIVERSARIANTES
         p Parabéns aos associados!

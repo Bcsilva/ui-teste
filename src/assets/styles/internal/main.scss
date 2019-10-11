@@ -1,0 +1,101 @@
+main{
+    header{
+        min-height:120px;
+        font: 14px/22px Roboto;
+        .navbar{
+            padding-top: 30px;
+            a.navbar-brand{
+                font: Bold 37px/40px Barlow;
+                margin:0;
+                img{
+                    margin-right:1rem;
+                }
+            }
+            .socialmedia{
+                position:relative;
+                margin-left:54px;
+                overflow:visible;
+                font-size:17px;
+                padding-left:1rem;
+                &:before{
+                    position:absolute;
+                    left:-27px;
+                    top:.5rem;
+                    display:block;
+                    width: 27px;
+                    height: 1px;
+                    background:#50B8FF;
+                    content:'';
+                }
+                li{
+                    padding-left:.5rem;
+                }
+            }
+            p{
+                margin:0;
+                line-height:1rem;
+            }
+        }
+    }
+    section#hero{
+        background-image: url('../img/Grupo de máscara 2.png');
+        background-repeat:no-repeat;
+        background-size: contain;
+        background-position: center right;
+        height:340px;      
+        aside{
+            height: 309px;
+            position:relative;
+            &:before{
+                position: absolute;
+                background: #026cb4;
+                left: -100vw;
+                top: 0;
+                width: calc(100vw);
+                height: 309px;
+                display: block;
+                content: "";             
+            }
+            h2{
+                font: Bold 34px/37px Barlow;
+                letter-spacing: 0;
+                padding: 2rem 0 1rem;
+                display: block;
+                margin:0;
+                &:before{
+                    content: '';
+                    display: block;
+                    width: 69px;
+                    height: 6px;
+                    background: #FF6A6A;
+                    margin-top: 1.5rem;
+                    margin-bottom: 1rem;
+                }
+            }    
+            ul{
+                list-style-type:none;
+                margin:0;
+                padding:0;
+                li{
+                    margin:0;
+                    padding:0;
+                    padding-left:1rem;
+                    text-align: left;
+                    font: 14px/29px Barlow;
+                    letter-spacing: 0.28px;
+                    position:relative;
+                    text-transform:uppercase;
+                    &:before{
+                        font: normal normal normal 14px/1 FontAwesome;
+                        font-size:12px;
+                        content:"\f054";
+                        color:#00A7FF;
+                        position:absolute;
+                        top:.5rem;
+                        left:0;
+                    } 
+                }
+            }
+        }
+    }
+}
