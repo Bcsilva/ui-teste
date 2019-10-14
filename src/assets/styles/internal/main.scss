@@ -1,3 +1,4 @@
+@import "vars.scss";
 main{
     header{
         min-height:120px;
@@ -41,23 +42,51 @@ main{
         background-image: url('../img/Grupo de máscara 2.png');
         background-repeat:no-repeat;
         //background-size: contain;
-        background-position: center top;
+        background-position: right top;
         height:340px;      
         position:relative;
-        &:after{
-            content:'';
-            background-color: #ff6a6a;
-            width:386px;
-            height: 80px;
-            position:absolute;
-            right:0;
-            bottom:0;
+        @media #{$xl-1080}{ background-position: right top; }
+        @media #{$xl-pre-1080}{ background-position: right -200px top 0; }
+        @media #{$xl-notebook}{ background-position: right -400px top 0; }
+        @media #{$xl}{ background-position: right -35vw top 0; }
+        @media #{$lg}{ background-position: right -50vw top 0; }
+        @media #{$md}{ background-position: right -75vw top 0; }
+        @media #{$sm-max}{ background-position: center top; }
+        @media #{$lg-min}{
+            &:after{
+                content:'';
+                background-color: #ff6a6a;
+                width:386px;
+                height: 80px;
+                position:absolute;
+                right:0;
+                bottom:0;
+            }
         }
+        @media #{$sm-max}{
+            height:649px;
+            .container{
+                padding-bottom:309px;
+            }
+        }
+
         aside{
             max-width: 489px;
             padding-right: 99px;
             height: 309px;
             position:relative;
+            @media #{$md}{
+                max-width: 50%;
+            }
+            @media #{$sm-max}{
+                max-width:initial;
+                width:100%;
+                position:absolute;
+                bottom:0;
+                left:0;
+                padding-left:50px;
+                padding-right:50px;
+            }
             &:before{
                 position: absolute;
                 background: #026cb4;
@@ -135,7 +164,10 @@ main{
             ul{
                 list-style-type:none;
                 margin:80px 0 0;
-                padding:0;                
+                padding:0;    
+                @media #{$sm-max}{
+                    margin-top:0px;
+                }
                 li{
                     font: Bold 14px/22px Barlow;
                     margin:0 0 34px;
@@ -144,6 +176,9 @@ main{
                     display:block;
                     position:relative;
                     text-transform:uppercase;
+                    @media #{$sm-max}{
+                        margin-left:auto;
+                    }
                     &:before{
                         content:'';
                         width:24px;
@@ -227,77 +262,205 @@ main{
         padding-bottom:112px;
         .container {
             >h3{ 
-            font: Bold 22px/40px Barlow;
-            width: 100%;
-            max-width: 420px;
-            position: relative;
-        
-            &:after {
-                position: absolute;
-                right: 0;
-                top: 0;
-                width: 275px;
-                height: 2rem;
-                content: '';
-                background: #000;
+                font: Bold 22px/40px Barlow;
+                width: 100%;
+                max-width: 420px;
+                position: relative;
+                @media #{$md-min}{
+                    &:after {
+                        position: absolute;
+                        right: 0;
+                        top: 0;
+                        width: 275px;
+                        height: 2rem;
+                        content: '';
+                        background: #000;
+                    }
+                }
+                &+p {
+                    font: 16px/16px Roboto;
+                    margin-bottom: 40px;
                 }
             }
-            + p {
-            font: 16px/16px Roboto;
-            margin-bottom: 40px;
+      
+        
+            div#staff {
+                li.nav-item {
+                /*max-width: 136px;
+                width: 100%;*/
+                padding-right: 2px;
+                }
+            
+                .nav-link {
+                    font: Bold 14px/40px Barlow;
+                    text-transform: uppercase;
+                    background: #0865A3 0% 0% no-repeat padding-box;
+                    color: #fff;
+                    padding: 0rem 2rem;
+                
+                    /* padding-right: 2rem; */
+                
+                    &.active {
+                        background: #FF6A6A 0% 0% no-repeat padding-box;
+                    }
+                }
             }
-        
-        
-        div#staff {
-            li.nav-item {
-            /*max-width: 136px;
-            width: 100%;*/
-            padding-right: 2px;
-            }
-        
-            .nav-link {
-            font: Bold 14px/40px Barlow;
-            text-transform: uppercase;
-            background: #0865A3 0% 0% no-repeat padding-box;
-            color: #fff;
-            padding: 0rem 2rem;
-        
-            /* padding-right: 2rem; */
-        
-            &.active {
-                background: #FF6A6A 0% 0% no-repeat padding-box;
-            }
-            }
-        }
         }
     }
     #aniversariantes{
         padding-top:106px;
         padding-bottom:145px;
+        .container {
+            >h3{ 
+                font: Bold 32px/40px Barlow;
+                color: #026CB4;
+                margin-bottom:20px;
+                &+p {
+                    font: 20px/29px Barlow;
+                    color: #026CB4;
+                    margin-bottom: 50px;
+                }                
+            }
+            div#calendar-selector {
+                margin-bottom: 45px;
+                position: relative;
+                .carousel-control-prev,.carousel-control-next {
+                    top:1px;
+                    color: #026cb4;
+                    opacity:1;
+                    display: block;
+                    cursor: pointer;
+                }
+                @media #{$lg-min}{
+                    max-width: 400px;
+                    padding-left: 154px;
+                    &:before {
+                        width: 131px;
+                        height: 24px;
+                        content: '';
+                        position: absolute;
+                        left: 0;
+                        top: 0;
+                        background: #000;
+                    }
+                }
+                .nav-link {
+                    text-transform: uppercase;
+                    padding: 0 50px;
+                    font: Bold 22px/40px Barlow;
+                    line-height: 1em;
+                }
+            }
+            #calendar{
+                .card{
+                    padding:0;
+                }
+                .card-body {
+                    @media #{$xl-notebook}{
+                        padding:33px 44px 42px 46px;
+                    }
+                    .anniversary-day {
+                        @media #{$md-max}{
+                            text-align:center;
+                        }
+                        h3{
+                            font: 45px/56px Barlow;
+                            line-height: 1rem;                            
+                        }
+                        /*@media #{$md-min}{
+                            width:100%;
+                            display:block;
+                        }*/
+                    }
+                  
+                    .card-title h4 {
+                      font: 18px/22px Barlow;
+                      color: #026CB4;
+                    }
+                  
+                    .card-text p {
+                      font: 12px/16px Roboto;
+                    }
+                  }                
+            }
+        }        
     }
     #footer{
         padding-top:73px;
         padding-bottom:112px;
+        div#logos .figure-caption {
+            font: 900 24px/29px Roboto;
+            text-transform: uppercase;
+          }
+        .socialmedia{
+            position:relative;
+            margin-left:54px;
+            overflow:visible;
+            font-size:17px;
+            li{
+                padding-left:.5rem !important;
+            }
+        }       
+        a#sac-cta{
+            font: Bold 14px/22px Barlow;
+            margin:0 0 34px;
+            padding:0 30px 0 30px;
+            display:block;
+            position:relative;
+            text-transform:uppercase;
+            &:after{
+                position:absolute;
+                right:0;
+                top:.5rem;
+                font: normal normal normal 14px/1 FontAwesome;
+                font-size:12px;
+                content:"\f054";
+                color:#FF6A6A;
+            }
+        } 
+        p {
+        font: 14px/22px Roboto;
+        padding-top: 0px;
+        }
+    }
+}
+@media #{$md-max}{
+    .card {
+        .col{
+            display:block !important;
+            width:100%;
+            text-align:center;
+        }
+        .img-col{
+            img{
+                margin:0 auto 1rem !important;
+                float:none !important;
+            }
+        }
     }
 }
 .card-title {
-    margin: 0;
-  
-    h5 {
-      font: Bold 12px/40px Barlow;
-      margin: 0;
-      padding: 0;
-    }
-  
+    margin: 0;  
     h4 {
       font: 18px/22px Barlow;
       margin: 0;
       padding: 0;
+      width:100%;
     }
+    h5 {
+        font: Bold 12px/40px Barlow;
+        margin: 0;
+        padding: 0;
+        line-height:1em;
+        width:100%;
+      }
   }
   
-  .card-text p {
-    font: 12px/16px Roboto;
-    margin: 0;
-    padding: 0;
-  }
+.card-text{
+    p {
+        font: 12px/16px Roboto;
+        margin: 0;
+        padding: 0;
+        width:100%;
+    }
+} 

@@ -11,195 +11,196 @@
 - var m11 = ['07','09','13','14','15','20','22','22','25'];
 - var m12 = ['09','11','12','14','15','20','22','22','25'];
 
-#calendar-selector.text-center
-    #carouselMonthSel.carousel.slide.carousel-fade(data-ride='carousel' data-interval="false")
+#calendar-selector
+    #carouselMonthSel.carousel.slide(data-ride='carousel' data-interval="false")
         .carousel-inner
-            .carousel-item 
+            .carousel-item.text-center 
                 a#m01-tab.nav-link(data-toggle='pill' href='#m01' role='tab' aria-controls='m01' aria-selected='false') Janeiro
-            .carousel-item 
+            .carousel-item.text-center 
                 a#m02-tab.nav-link(data-toggle='pill' href='#m02' role='tab' aria-controls='m02' aria-selected='false') Fevereiro
-            .carousel-item 
+            .carousel-item.text-center 
                 a#m03-tab.nav-link(data-toggle='pill' href='#m03' role='tab' aria-controls='m03' aria-selected='false') Março
-            .carousel-item 
+            .carousel-item.text-center 
                 a#m04-tab.nav-link(data-toggle='pill' href='#m04' role='tab' aria-controls='m04' aria-selected='false') Abril
-            .carousel-item.active 
+            .carousel-item.text-center.active 
                 a#m05-tab.nav-link(data-toggle='pill' href='#m05' role='tab' aria-controls='m05' aria-selected='false') Maio
-            .carousel-item 
+            .carousel-item.text-center 
                 a#m06-tab.nav-link(data-toggle='pill' href='#m06' role='tab' aria-controls='m06' aria-selected='false') Junho
-            .carousel-item 
+            .carousel-item.text-center 
                 a#m07-tab.nav-link(data-toggle='pill' href='#m07' role='tab' aria-controls='m07' aria-selected='false') Julho
-            .carousel-item 
+            .carousel-item.text-center 
                 a#m08-tab.nav-link(data-toggle='pill' href='#m08' role='tab' aria-controls='m08' aria-selected='false') Agosto
-            .carousel-item 
+            .carousel-item.text-center 
                 a#m09-tab.nav-link(data-toggle='pill' href='#m09' role='tab' aria-controls='m09' aria-selected='false') Setembro
-            .carousel-item 
+            .carousel-item.text-center 
                 a#m10-tab.nav-link(data-toggle='pill' href='#m10' role='tab' aria-controls='m10' aria-selected='false') Outubro
-            .carousel-item 
+            .carousel-item.text-center 
                 a#m11-tab.nav-link(data-toggle='pill' href='#m11' role='tab' aria-controls='m11' aria-selected='false') Novembro
             .carousel-item 
                 a#m12-tab.nav-link(data-toggle='pill' href='#m12' role='tab' aria-controls='m12' aria-selected='false') Dezembro
         a.carousel-control-prev(href='#carouselMonthSel' role='button' data-slide='prev')
-            span.carousel-control-prev-icon(aria-hidden='true')
+            span.carousel-control-prev
+                i.fa.fa-chevron-left(aria-hidden='true')
             span.sr-only Previous
         a.carousel-control-next(href='#carouselMonthSel' role='button' data-slide='next')
-            span.carousel-control-next-icon(aria-hidden='true')
+            span.carousel-control-next 
+                i.fa.fa-chevron-right(aria-hidden='true')
             span.sr-only Next
 #calendar
-    .row
-        #months-tabContent.tab-content
-            #m01.tab-pane.fade(role='tabpanel' aria-labelledby='m01-tab')
-                .card-columns
-                    each val in m01
-                        .card
-                            .card-body
-                                .row.no-gutters
-                                    .col
-                                        h3.text-red=val
-                                    .col
-                                        .card-title
-                                            h4 José Armando da Silva
-                                        .card-text
-                                            p.text-gray Engenheiro Eletricista/Telecomunicações
-            #m02.tab-pane.fade(role='tabpanel' aria-labelledby='m02-tab')
-                .card-columns
-                    each val in m02 
-                        .card
-                            .card-body
-                                .row.no-gutters
-                                    .col
-                                        h3.text-red=val
-                                    .col
-                                        .card-title
-                                            h4 José Armando da Silva
-                                        .card-text
-                                            p.text-gray Engenheiro Eletricista/Telecomunicações
-            #m03.tab-pane.fade(role='tabpanel' aria-labelledby='m03-tab')
-                .card-columns
-                    each val in m03 
-                        .card
-                            .card-body
-                                .row.no-gutters
-                                    .col
-                                        h3.text-red=val
-                                    .col
-                                        .card-title
-                                            h4 José Armando da Silva
-                                        .card-text
-                                            p.text-gray Engenheiro Eletricista/Telecomunicações
-            #m04.tab-pane.fade(role='tabpanel' aria-labelledby='m04-tab')
-                .card-columns
-                    each val in m04 
-                        .card
-                            .card-body
-                                .row.no-gutters
-                                    .col
-                                        h3.text-red=val
-                                    .col
-                                        .card-title
-                                            h4 José Armando da Silva
-                                        .card-text
-                                            p.text-gray Engenheiro Eletricista/Telecomunicações
-            #m05.tab-pane.fade.show.active(role='tabpanel' aria-labelledby='m05-tab')
-                .card-columns
-                    each val in m05 
-                        .card
-                            .card-body
-                                .row.no-gutters
-                                    .col
-                                        h3.text-red=val
-                                    .col
-                                        .card-title
-                                            h4 José Armando da Silva
-                                        .card-text
-                                            p.text-gray Engenheiro Eletricista/Telecomunicações
-            #m06.tab-pane.fade(role='tabpanel' aria-labelledby='m06-tab')
-                .card-columns
-                    each val in m06 
-                        .card
-                            .card-body
-                                .row.no-gutters
-                                    .col
-                                        h3.text-red=val
-                                    .col
-                                        .card-title
-                                            h4 José Armando da Silva
-                                        .card-text
-                                            p.text-gray Engenheiro Eletricista/Telecomunicações
-            #m07.tab-pane.fade(role='tabpanel' aria-labelledby='m07-tab')
-                .card-columns
-                    each val in m07 
-                        .card
-                            .card-body
-                                .row.no-gutters
-                                    .col
-                                        h3.text-red=val
-                                    .col
-                                        .card-title
-                                            h4 José Armando da Silva
-                                        .card-text
-                                            p.text-gray Engenheiro Eletricista/Telecomunicações
-            #m08.tab-pane.fade(role='tabpanel' aria-labelledby='m08-tab')
-                .card-columns
-                    each val in m08
-                        .card
-                            .card-body
-                                .row.no-gutters
-                                    .col
-                                        h3.text-red=val
-                                    .col
-                                        .card-title
-                                            h4 José Armando da Silva
-                                        .card-text
-                                            p.text-gray Engenheiro Eletricista/Telecomunicações
-            #m09.tab-pane.fadee(role='tabpanel' aria-labelledby='m09-tab')
-                .card-columns
-                    each val in m09 
-                        .card
-                            .card-body
-                                .row.no-gutters
-                                    .col
-                                        h3.text-red=val
-                                    .col
-                                        .card-title
-                                            h4 José Armando da Silva
-                                        .card-text
-                                            p.text-gray Engenheiro Eletricista/Telecomunicações
-            #m10.tab-pane.fade(role='tabpanel' aria-labelledby='m10-tab')
-                .card-columns
-                    each val in m10 
-                        .card
-                            .card-body
-                                .row.no-gutters
-                                    .col
-                                        h3.text-red=val
-                                    .col
-                                        .card-title
-                                            h4 José Armando da Silva
-                                        .card-text
-                                            p.text-gray Engenheiro Eletricista/Telecomunicações
-            #m11.tab-pane.fade(role='tabpanel' aria-labelledby='m11-tab')
-                .card-columns
-                    each val in m11 
-                        .card
-                            .card-body
-                                .row.no-gutters
-                                    .col
-                                        h3.text-red=val
-                                    .col
-                                        .card-title
-                                            h4 José Armando da Silva
-                                        .card-text
-                                            p.text-gray Engenheiro Eletricista/Telecomunicações
-            #m12.tab-pane.fade(role='tabpanel' aria-labelledby='m12-tab')
-                .card-columns
-                    each val in m12 
-                        .card
-                            .card-body
-                                .row.no-gutters
-                                    .col
-                                        h3.text-red=val
-                                    .col
-                                        .card-title
-                                            h4 José Armando da Silva
-                                        .card-text
-                                            p.text-gray Engenheiro Eletricista/Telecomunicações
+    #months-tabContent.tab-content
+        #m01.tab-pane.fade(role='tabpanel' aria-labelledby='m01-tab')
+            .card-columns
+                each val in m01
+                    .card
+                        .card-body
+                            .row.no-gutters
+                                .anniversary-day.col-sm-12.col-lg-4.d-md-flex.d-sm-block.d-xs-block.align-content-md-center.flex-md-wrap
+                                    h3.text-red.w-100.d-block=val
+                                .col.d-md-flex.d-sm-block.d-xs-block.align-content-md-center.flex-md-wrap
+                                    .card-title
+                                        h4 José Armando da Silva
+                                    .card-text
+                                        p.text-gray Engenheiro Eletricista/Telecomunicações
+        #m02.tab-pane.fade(role='tabpanel' aria-labelledby='m02-tab')
+            .card-columns
+                each val in m02 
+                    .card
+                        .card-body
+                            .row.no-gutters
+                                .anniversary-day.col-sm-12.col-lg-4.d-md-flex.d-sm-block.d-xs-block.align-content-md-center.flex-md-wrap
+                                    h3.text-red.w-100.d-block=val
+                                .col.d-md-flex.d-sm-block.d-xs-block.align-content-md-center.flex-md-wrap
+                                    .card-title
+                                        h4 José Armando da Silva
+                                    .card-text
+                                        p.text-gray Engenheiro Eletricista/Telecomunicações
+        #m03.tab-pane.fade(role='tabpanel' aria-labelledby='m03-tab')
+            .card-columns
+                each val in m03 
+                    .card
+                        .card-body
+                            .row.no-gutters
+                                .anniversary-day.col-sm-12.col-lg-4.d-md-flex.d-sm-block.d-xs-block.align-content-md-center.flex-md-wrap
+                                    h3.text-red.w-100.d-block=val
+                                .col.d-md-flex.d-sm-block.d-xs-block.align-content-md-center.flex-md-wrap
+                                    .card-title
+                                        h4 José Armando da Silva
+                                    .card-text
+                                        p.text-gray Engenheiro Eletricista/Telecomunicações
+        #m04.tab-pane.fade(role='tabpanel' aria-labelledby='m04-tab')
+            .card-columns
+                each val in m04 
+                    .card
+                        .card-body
+                            .row.no-gutters
+                                .anniversary-day.col-sm-12.col-lg-4.d-md-flex.d-sm-block.d-xs-block.align-content-md-center.flex-md-wrap
+                                    h3.text-red.w-100.d-block=val
+                                .col.d-md-flex.d-sm-block.d-xs-block.align-content-md-center.flex-md-wrap
+                                    .card-title
+                                        h4 José Armando da Silva
+                                    .card-text
+                                        p.text-gray Engenheiro Eletricista/Telecomunicações
+        #m05.tab-pane.fade.show.active(role='tabpanel' aria-labelledby='m05-tab')
+            .card-columns
+                each val in m05 
+                    .card
+                        .card-body
+                            .row.no-gutters
+                                .anniversary-day.col-sm-12.col-lg-4.d-md-flex.d-sm-block.d-xs-block.align-content-md-center.flex-md-wrap
+                                    h3.text-red.w-100.d-block=val
+                                .col.d-md-flex.d-sm-block.d-xs-block.align-content-md-center.flex-md-wrap
+                                    .card-title
+                                        h4 José Armando da Silva
+                                    .card-text
+                                        p.text-gray Engenheiro Eletricista/Telecomunicações
+        #m06.tab-pane.fade(role='tabpanel' aria-labelledby='m06-tab')
+            .card-columns
+                each val in m06 
+                    .card
+                        .card-body
+                            .row.no-gutters
+                                .anniversary-day.col-sm-12.col-lg-4.d-md-flex.d-sm-block.d-xs-block.align-content-md-center.flex-md-wrap
+                                    h3.text-red.w-100.d-block=val
+                                .col.d-md-flex.d-sm-block.d-xs-block.align-content-md-center.flex-md-wrap
+                                    .card-title
+                                        h4 José Armando da Silva
+                                    .card-text
+                                        p.text-gray Engenheiro Eletricista/Telecomunicações
+        #m07.tab-pane.fade(role='tabpanel' aria-labelledby='m07-tab')
+            .card-columns
+                each val in m07 
+                    .card
+                        .card-body
+                            .row.no-gutters
+                                .anniversary-day.col-sm-12.col-lg-4.d-md-flex.d-sm-block.d-xs-block.align-content-md-center.flex-md-wrap
+                                    h3.text-red.w-100.d-block=val
+                                .col.d-md-flex.d-sm-block.d-xs-block.align-content-md-center.flex-md-wrap
+                                    .card-title
+                                        h4 José Armando da Silva
+                                    .card-text
+                                        p.text-gray Engenheiro Eletricista/Telecomunicações
+        #m08.tab-pane.fade(role='tabpanel' aria-labelledby='m08-tab')
+            .card-columns
+                each val in m08
+                    .card
+                        .card-body
+                            .row.no-gutters
+                                .anniversary-day.col-sm-12.col-lg-4.d-md-flex.d-sm-block.d-xs-block.align-content-md-center.flex-md-wrap
+                                    h3.text-red.w-100.d-block=val
+                                .col.d-md-flex.d-sm-block.d-xs-block.align-content-md-center.flex-md-wrap
+                                    .card-title
+                                        h4 José Armando da Silva
+                                    .card-text
+                                        p.text-gray Engenheiro Eletricista/Telecomunicações
+        #m09.tab-pane.fade(role='tabpanel' aria-labelledby='m09-tab')
+            .card-columns
+                each val in m09 
+                    .card
+                        .card-body
+                            .row.no-gutters
+                                .anniversary-day.col-sm-12.col-lg-4.d-md-flex.d-sm-block.d-xs-block.align-content-md-center.flex-md-wrap
+                                    h3.text-red.w-100.d-block=val
+                                .col.d-md-flex.d-sm-block.d-xs-block.align-content-md-center.flex-md-wrap
+                                    .card-title
+                                        h4 José Armando da Silva
+                                    .card-text
+                                        p.text-gray Engenheiro Eletricista/Telecomunicações
+        #m10.tab-pane.fade(role='tabpanel' aria-labelledby='m10-tab')
+            .card-columns
+                each val in m10 
+                    .card
+                        .card-body
+                            .row.no-gutters
+                                .anniversary-day.col-sm-12.col-lg-4.d-md-flex.d-sm-block.d-xs-block.align-content-md-center.flex-md-wrap
+                                    h3.text-red.w-100.d-block=val
+                                .col.d-md-flex.d-sm-block.d-xs-block.align-content-md-center.flex-md-wrap
+                                    .card-title
+                                        h4 José Armando da Silva
+                                    .card-text
+                                        p.text-gray Engenheiro Eletricista/Telecomunicações
+        #m11.tab-pane.fade(role='tabpanel' aria-labelledby='m11-tab')
+            .card-columns
+                each val in m11 
+                    .card
+                        .card-body
+                            .row.no-gutters
+                                .anniversary-day.col-sm-12.col-lg-4.d-md-flex.d-sm-block.d-xs-block.align-content-md-center.flex-md-wrap
+                                    h3.text-red.w-100.d-block=val
+                                .col.d-md-flex.d-sm-block.d-xs-block.align-content-md-center.flex-md-wrap
+                                    .card-title
+                                        h4 José Armando da Silva
+                                    .card-text
+                                        p.text-gray Engenheiro Eletricista/Telecomunicações
+        #m12.tab-pane.fade(role='tabpanel' aria-labelledby='m12-tab')
+            .card-columns
+                each val in m12 
+                    .card
+                        .card-body
+                            .row.no-gutters
+                                .anniversary-day.col-sm-12.col-lg-4.d-md-flex.d-sm-block.d-xs-block.align-content-md-center.flex-md-wrap
+                                    h3.text-red.w-100.d-block=val
+                                .col.d-md-flex.d-sm-block.d-xs-block.align-content-md-center.flex-md-wrap
+                                    .card-title
+                                        h4 José Armando da Silva
+                                    .card-text
+                                        p.text-gray Engenheiro Eletricista/Telecomunicações

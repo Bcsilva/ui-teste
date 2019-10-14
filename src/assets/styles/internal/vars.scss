@@ -1,0 +1,30 @@
+// Extra small devices (portrait phones, less than 576px)
+$xs: "(max-width: 575.98px)";
+// Small devices (landscape phones, 576px and up)
+$sm: "(min-width: 576px) and (max-width: 767.98px)";
+
+// Medium devices (tablets, 768px and up)
+$md: "(min-width: 768px) and (max-width: 991.98px)";
+
+// Large devices (desktops, 992px and up)
+$lg: "(min-width: 992px) and (max-width: 1199.98px)";
+$xl: "(min-width: 1200px) and (max-width: 1279.98px)";
+$xl-notebook: "(min-width: 1280px) and (max-width: 1399.98px)";
+$xl-pre-1080: "(min-width: 1400px) and (max-width: 1599.98px)";
+$xl-1080: "(min-width: 1600px)";
+
+$sm-min: "(min-width: 576px)";
+$md-min: "(min-width: 768px)";
+$lg-min: "(min-width: 992px)";
+$xl-min: "(min-width: 1200px)";
+$xl-notebook-min: "(min-width: 1280px)";
+$xl-pre-1080-min: "(min-width: 1400px)";
+$xl-1080-min: "(min-width: 1600px)";
+
+$xs-max: "(max-width: 575.98px)";
+$sm-max: "(max-width: 767.98px)";
+$md-max: "(max-width: 991.98px)";
+$lg-max: "(max-width: 1199.98px)";
+$xl-max: "(max-width: 1279.98px)";
+$xl-notebook-max: "(max-width: 1399.98px)";
+$xl-pre-1080-max: "(max-width: 1599.98px)";

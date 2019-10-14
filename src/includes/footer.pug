@@ -1,17 +1,14 @@
 .container
-    .row
+    .row.mb-3
         .col-md-8
-            .row
+            .row#logos
                 - for (var i = 0; i < 3; ++i) 
                     .col.text-center
-                        figure.figure
-                            img.figure-img.img-fluid.rounded(src='img/brand-others.png' alt='Logo' height='75')
-                            figcaption.figure-caption='Logo ' + (i+1) 
-                
-            .row
-                p Nome da rua bairro e numero
-        .col-md-4.mb-5
-            ul.socialmedia.d-inline-block.m-0.p-0
+                            figure.figure
+                                img.figure-img.img-fluid.rounded(src='img/brand-others.png' alt='Logo' height='75')
+                                figcaption.figure-caption='Logo ' + (i+1) 
+        .col-md-4.mb-5.text-right
+            ul.socialmedia.d-inline-block.m-0.p-0.w-100
                 li.d-inline.m-0.p-0
                     a(href='#')
                         i.fa.fa-whatsapp
@@ -21,4 +18,9 @@
                 li.d-inline.m-0.p-0
                     a(href='#')
                         i.fa.fa-facebook
-            a.text-blue(href='#') CENTRAL DE ATENDIMENTO
+    .row
+        .col-md-8                
+            .row
+                p.d-block.w-100.text-center Nome da rua bairro e numero
+        .col-md-4.text-right
+            a.text-blue#sac-cta(href='#') CENTRAL DE ATENDIMENTO
