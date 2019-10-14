@@ -225,14 +225,14 @@ main{
     #diretoria{
         padding-top:106px;
         padding-bottom:112px;
-        section#diretoria {
-            .container > h3 {
-              font: Bold 22px/40px Barlow;
-              width: 100%;
-              max-width: 420px;
-              position: relative;
-          
-              &:after {
+        .container {
+            >h3{ 
+            font: Bold 22px/40px Barlow;
+            width: 100%;
+            max-width: 420px;
+            position: relative;
+        
+            &:after {
                 position: absolute;
                 right: 0;
                 top: 0;
@@ -240,37 +240,36 @@ main{
                 height: 2rem;
                 content: '';
                 background: #000;
-              }
-          
-              + p {
-                font: 16px/16px Roboto;
-                margin-bottom: 40px;
-              }
-            }
-          
-            div#staff {
-              li.nav-item {
-                /*max-width: 136px;
-                width: 100%;*/
-                padding-right: 2px;
-              }
-          
-              .nav-link {
-                font: Bold 14px/40px Barlow;
-                text-transform: uppercase;
-                background: #0865A3 0% 0% no-repeat padding-box;
-                color: #fff;
-                padding: 0rem 2rem;
-          
-                /* padding-right: 2rem; */
-          
-                &.active {
-                  background: #FF6A6A 0% 0% no-repeat padding-box;
                 }
-              }
             }
-          }
-
+            + p {
+            font: 16px/16px Roboto;
+            margin-bottom: 40px;
+            }
+        
+        
+        div#staff {
+            li.nav-item {
+            /*max-width: 136px;
+            width: 100%;*/
+            padding-right: 2px;
+            }
+        
+            .nav-link {
+            font: Bold 14px/40px Barlow;
+            text-transform: uppercase;
+            background: #0865A3 0% 0% no-repeat padding-box;
+            color: #fff;
+            padding: 0rem 2rem;
+        
+            /* padding-right: 2rem; */
+        
+            &.active {
+                background: #FF6A6A 0% 0% no-repeat padding-box;
+            }
+            }
+        }
+        }
     }
     #aniversariantes{
         padding-top:106px;
