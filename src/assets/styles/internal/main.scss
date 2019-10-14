@@ -40,10 +40,22 @@ main{
     section#hero{
         background-image: url('../img/Grupo de máscara 2.png');
         background-repeat:no-repeat;
-        background-size: contain;
-        background-position: center right;
+        //background-size: contain;
+        background-position: center top;
         height:340px;      
+        position:relative;
+        &:after{
+            content:'';
+            background-color: #ff6a6a;
+            width:386px;
+            height: 80px;
+            position:absolute;
+            right:0;
+            bottom:0;
+        }
         aside{
+            max-width: 489px;
+            padding-right: 99px;
             height: 309px;
             position:relative;
             &:before{
@@ -98,4 +110,195 @@ main{
             }
         }
     }
+    #intro{
+        padding-bottom:122px;
+        #intro-txt{
+            h2{
+                font: Bold 32px/40px Barlow;
+                letter-spacing: 0;
+                padding: 0rem 0 0rem;
+                display: block;
+                margin:0;
+                &:before{
+                    content: '';
+                    display: block;
+                    width: 69px;
+                    height: 6px;
+                    background: #FF6A6A;
+                    margin-top: 1.5rem;
+                    margin-bottom: 1rem;
+                }
+            } 
+            p{
+                font: 16px/22px Roboto;;
+            } 
+            ul{
+                list-style-type:none;
+                margin:80px 0 0;
+                padding:0;                
+                li{
+                    font: Bold 14px/22px Barlow;
+                    margin:0 0 34px;
+                    padding:0 0 0 30px;
+                    max-width:224px;
+                    display:block;
+                    position:relative;
+                    text-transform:uppercase;
+                    &:before{
+                        content:'';
+                        width:24px;
+                        height:24px;
+                        background-repeat:no-repeat;
+                        display:block;
+                        position:absolute;
+                        left:0;
+                        top:0;
+                    }
+                    &#cta-conheca-associados{
+                        padding-left:30px;
+                        &:before{
+                            background-image: url('../img/user.svg');
+                        }
+                    }
+                    &#cta-calendario-eventos{
+                        padding-left:30px;
+                        &:before{
+                            background-image: url('../img/calendar.svg');
+                        }
+                    }
+                    &:after{
+                        position:absolute;
+                        right:0;
+                        top:.5rem;
+                        font: normal normal normal 14px/1 FontAwesome;
+                        font-size:12px;
+                        content:"\f054";
+                        color:#FF6A6A;
+                    }
+                }
+            }
+        }
+    }
+    #associados{
+        .wrapper{
+            padding:72px 51px 76px 77px;
+            min-height: 546px;
+            h3{
+                font: Bold 18px/22px Barlow;
+                text-transform:uppercase;
+                max-width:192px;
+                position:relative;
+                &:after{
+                    position:absolute;
+                    right:0;
+                    top:.5rem;
+                    font: normal normal normal 14px/1 FontAwesome;
+                    font-size:12px;
+                    content:"\f054";
+                    color:#FF6A6A;
+                }
+            }
+            h4{
+                font: 16px/17px Roboto;
+            }
+            ul{
+                list-style-type:none;
+                margin:0;
+                padding:0;
+                li{
+                    margin:0;
+                    padding:0 0 0 25px;
+                    font: 15px/22px Roboto;
+                    color: #727272;
+                    position:relative;
+                    &:before{
+                        content:'•';
+                        color:#FF6A6A;
+                        position:absolute;
+                        left:0rem;
+                        top:0;
+                    }
+                }
+            }
+        }
+    }
+    #diretoria{
+        padding-top:106px;
+        padding-bottom:112px;
+        section#diretoria {
+            .container > h3 {
+              font: Bold 22px/40px Barlow;
+              width: 100%;
+              max-width: 420px;
+              position: relative;
+          
+              &:after {
+                position: absolute;
+                right: 0;
+                top: 0;
+                width: 275px;
+                height: 2rem;
+                content: '';
+                background: #000;
+              }
+          
+              + p {
+                font: 16px/16px Roboto;
+                margin-bottom: 40px;
+              }
+            }
+          
+            div#staff {
+              li.nav-item {
+                /*max-width: 136px;
+                width: 100%;*/
+                padding-right: 2px;
+              }
+          
+              .nav-link {
+                font: Bold 14px/40px Barlow;
+                text-transform: uppercase;
+                background: #0865A3 0% 0% no-repeat padding-box;
+                color: #fff;
+                padding: 0rem 2rem;
+          
+                /* padding-right: 2rem; */
+          
+                &.active {
+                  background: #FF6A6A 0% 0% no-repeat padding-box;
+                }
+              }
+            }
+          }
+
+    }
+    #aniversariantes{
+        padding-top:106px;
+        padding-bottom:145px;
+    }
+    #footer{
+        padding-top:73px;
+        padding-bottom:112px;
+    }
 }
+.card-title {
+    margin: 0;
+  
+    h5 {
+      font: Bold 12px/40px Barlow;
+      margin: 0;
+      padding: 0;
+    }
+  
+    h4 {
+      font: 18px/22px Barlow;
+      margin: 0;
+      padding: 0;
+    }
+  }
+  
+  .card-text p {
+    font: 12px/16px Roboto;
+    margin: 0;
+    padding: 0;
+  }

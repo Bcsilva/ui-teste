@@ -20,36 +20,36 @@ body
   main
     header
       include includes/header.pug
-    section#hero
+    section#hero.mb-5
       .container
-        aside.col-md-5.bg-blue.text-white
+        aside.bg-blue.text-white
           h2 TESTE DE TEXTO GRANDE NO TOPO
           ul
             li Transparência
             li Comprometimento
             li União
-    section.mb-5(id='intro')
+    section(id='intro')
       .container
         .row
           .col-md-6
             .wrapper(id='intro-txt')
-              h2.text-blue TESTE DE TEXTO GRANDE NO TOPO
-              p.mb-5 A Associação de Engenharia, Arquitetura e Agronomia é uma entidade sem fins lucrativos que tem como objetivos valorizar os profissionais inseridos nos sistemas, e colaborar com o município e a população em geral.
+              h2.text-blue.mb-4 TESTE DE TEXTO GRANDE NO TOPO
+              p A Associação de Engenharia, Arquitetura e Agronomia é uma entidade sem fins lucrativos que tem como objetivos valorizar os profissionais inseridos nos sistemas, e colaborar com o município e a população em geral.
               ul
-                li 
+                li#cta-conheca-associados 
                   a.text-blue(href='#') Conheça os Associados
-                li
+                li#cta-calendario-eventos
                   a.text-blue(href='#') Calendário de Eventos
           .col-md-6(id='associados')
             .wrapper.border
-              h3.text-primary SEJA UM ASSOCIADO
-              h4.text-secondary Desde descontos em convênios, até participação gratuita em eventos!
+              h3.text-primary.mb-3 SEJA UM ASSOCIADO
+              h4.text-secondary.mb-5 Desde descontos em convênios, até participação gratuita em eventos!
               ul
-                li Desconto na caderneta de obras. 
-                li Desconto em diversos convênios. 
-                li Possibilidade de participação gratuita em eventos e palestras organizados pela. 
-                li Possibilidade de participação do nosso portal de Profissionais Liberais e, dessa maneira, conquistando mais credibilidade em seu trabalho e aumentando sua carta de clientes. 
-                li Brides promocionais nos eventos.
+                li.mb-2 Desconto na caderneta de obras. 
+                li.mb-2 Desconto em diversos convênios. 
+                li.mb-2 Possibilidade de participação gratuita em eventos e palestras organizados pela. 
+                li.mb-2 Possibilidade de participação do nosso portal de Profissionais Liberais e, dessa maneira, conquistando mais credibilidade em seu trabalho e aumentando sua carta de clientes. 
+                li.mb-2 Brides promocionais nos eventos.
     section#diretoria.bg-blue.text-white
       .container
         h3 DIRETORIA
